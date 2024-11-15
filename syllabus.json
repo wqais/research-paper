@@ -1,0 +1,552 @@
+[{
+    "subjectCode": "MA501",
+    "subjectName": "Linear Algebra",
+    "credits": 3,
+    "category": "BSC",
+    "teachingScheme": {
+      "lecture": 2,
+      "tutorial": 1,
+      "practical": 0,
+      "other": 5,
+      "totalHours": 8
+    },
+    "examinationScheme": {
+      "ISE": 75,
+      "MSE": 75,
+      "ESE": 150,
+      "total": 300
+    },
+    "courseObjectives": [
+      "To develop mathematical skills for solving computer science problems."
+    ],
+    "courseOutcomes": [
+      "MA501.1 Solve a homogeneous and non-homogeneous system of linear equations using rank of a matrix.",
+      "MA501.2 Solve system of linear equations by Numerical Methods.",
+      "MA501.3 Solve equations in real life problems and to encode and decode messages using the concept of matrices.",
+      "MA501.4 Identify whether given structures are vector spaces and subspaces and construct a basis for them.",
+      "MA501.5 Show if a given matrix is diagonalizable or not.",
+      "MA501.6 Apply concepts of eigenvalues and eigenvectors to calculate functions of a square matrix, Google page rank vector and solve systems of differential equations."
+    ],
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Basics of matrices",
+        "topics": [
+          "Revision of basic matrices and types of matrices",
+          "Row echelon form, Reduced Row Echelon form, Rank of a matrix"
+        ],
+        "reference": [3, 5],
+        "hours": 3
+      },
+      {
+        "moduleNumber": 2,
+        "title": "Linear equations & its solutions",
+        "topics": [
+          "Consistency and solution of simultaneous linear homogeneous and non-homogeneous equations",
+          "Application of solving systems of equations in traffic control",
+          "Solution by Gauss Elimination, Gauss Jordan, Gauss Jacobi, Gauss Seidel, LU Decomposition - Crout’s method"
+        ],
+        "reference": [1, 2, 3, 5],
+        "hours": 7
+      },
+      {
+        "moduleNumber": 3,
+        "title": "Vector spaces",
+        "topics": [
+          "Vector space, subspace, span, linear dependence and independence of vectors",
+          "Basis, dimension, orthogonal projection & Gram-Schmidt process"
+        ],
+        "reference": [1, 2, 5],
+        "hours": 8
+      },
+      {
+        "moduleNumber": 4,
+        "title": "Encoding & decoding using Matrices",
+        "topics": [
+          "Application of matrices to coding and decoding"
+        ],
+        "reference": [4],
+        "hours": 2
+      },
+      {
+        "moduleNumber": 5,
+        "title": "Eigenvalues and Eigenvectors",
+        "topics": [
+          "Eigenvalues, Eigenvectors and its properties",
+          "Cayley Hamilton theorem and applications",
+          "Diagonalisation of matrices, Application to find Google page rank"
+        ],
+        "reference": [1, 2, 3, 5],
+        "hours": 8
+      },
+      {
+        "moduleNumber": 6,
+        "title": "Self-Study Topics",
+        "topics": [
+          "Normal form, Solving KVL circuits using matrices, Singular Value Decomposition",
+          "Quadratic forms, Spectral theorem for Hermitian matrices"
+        ],
+        "reference": [1, 2, 3, 5]
+      }
+    ]
+  },
+  {
+    "subjectCode": "MC501",
+    "subjectName": "Data Structures",
+    "credits": 3,
+    "category": "PC",
+    "teachingScheme": {
+      "lecture": 2,
+      "tutorial": 0,
+      "practical": 2,
+      "other": 4,
+      "totalHours": 8
+    },
+    "examinationScheme": {
+      "ISE": 50,
+      "MSE": 50,
+      "ESE": 100,
+      "total": 200
+    },
+    "courseObjectives": [
+      "To learn fundamentals of Data Structures."
+    ],
+    "courseOutcomes": [
+      "MC501.1 Apply various operations of Stack, Queue and Linked List to solve problems from different domains.",
+      "MC501.2 Apply various operations of Tree and Graph to solve problems from different domains.",
+      "MC501.3 Make use of searching and hashing techniques for efficient data retrieval and data mapping.",
+      "MC501.4 Compare efficiency of various sorting algorithms."
+    ],
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Introduction to Data Structure and Algorithms",
+        "topics": [
+          "Types of Data Structure",
+          "Characteristics of an Algorithm",
+          "Abstract Data type (ADT)",
+          "Introduction to Time and Space Complexity",
+          "Asymptotic Notations (Big O, Omega, Theta)"
+        ],
+        "reference": [1, 2],
+        "hours": 2
+      },
+      {
+        "moduleNumber": 2,
+        "title": "Linked List, Stack and Queue",
+        "topics": [
+          "Linked List as an ADT, Types of Linked List (Singly, Doubly, Circular), Operations of Linked List",
+          "Applications of Linked List: Polynomial addition and subtraction",
+          "Stack ADT, Stack operations, Applications of Stack: Postfix expression evaluation, Infix to Postfix conversion",
+          "Queue ADT, Queue operations, Circular Queue, Priority Queue, Applications of Queue: Round Robin CPU Scheduling"
+        ],
+        "reference": [1, 2],
+        "hours": 9
+      },
+      {
+        "moduleNumber": 3,
+        "title": "Tree and Graph",
+        "topics": [
+          "Binary Tree, Binary Search Tree, Expression Tree, Huffman Tree, AVL Tree, B Tree, Heap Tree",
+          "Graph Representation, Graph Traversal Techniques, Shortest Path Algorithms"
+        ],
+        "reference": [1, 2],
+        "hours": 9
+      },
+      {
+        "moduleNumber": 4,
+        "title": "Searching and Hashing Techniques",
+        "topics": [
+          "Sequential Search, Binary Search, Interpolation Search",
+          "Hashing Techniques and Collision resolution techniques"
+        ],
+        "reference": [1, 2],
+        "hours": 4
+      },
+      {
+        "moduleNumber": 5,
+        "title": "Sorting Techniques",
+        "topics": [
+          "Internal Sorting Techniques: Bubble Sort, Insertion Sort, Selection Sort, Radix Sort, Quick Sort, Heap Sort",
+          "External Sorting Techniques: Merge Sort",
+          "Complexity Calculation"
+        ],
+        "reference": [1, 2],
+        "hours": 4
+      },
+      {
+        "moduleNumber": 6,
+        "title": "Self-Study Topics",
+        "topics": [
+          "Applications of Linked list: Sparse Matrix and other real life applications",
+          "Applications of Stack: Recursion and other real life applications",
+          "Applications of Queue: Johnson’s Algorithm",
+          "Applications of Tree and Graph",
+          "Competitive Coding"
+        ]
+      }
+    ]
+  },
+  {
+    "subjectCode": "MC502",
+    "subjectName": "Database Management System",
+    "credits": 4,
+    "category": "PC",
+    "teachingScheme": {
+      "lecture": 3,
+      "tutorial": 0,
+      "practical": 2,
+      "other": 5,
+      "totalHours": 10
+    },
+    "examinationScheme": {
+      "ISE": 75,
+      "MSE": 75,
+      "ESE": 150,
+      "total": 300
+    },
+    "courseObjectives": [
+      "To learn the fundamentals of database systems."
+    ],
+    "courseOutcomes": [
+      "MC502.1 Design ER diagram and relational database.",
+      "MC502.2 Apply normalization on given database.",
+      "MC502.3 Analyze transaction and concurrency control mechanism.",
+      "MC502.4 Illustrate emerging database systems.",
+      "MC502.5 Formulate SQL queries for information retrieval.",
+      "MC502.6 Demonstrate various PL/SQL queries."
+    ],
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Introduction to DBMS, ER and Relational Model",
+        "topics": [
+          "File system organization, Purpose of Database system",
+          "Data models, Codd rules, DBMS architecture",
+          "Entity set & Relationship set, Mapping cardinalities, ER diagram",
+          "ER to Relational Model Designing"
+        ],
+        "reference": [1, 2],
+        "hours": 6
+      },
+      {
+        "moduleNumber": 2,
+        "title": "Query Optimization, Normalization and Functional Dependencies",
+        "topics": [
+          "Query processing steps, Evaluation of Query",
+          "Relational Optimization",
+          "Functional dependency and its types",
+          "Normal forms: 1NF, 2NF, 3NF, BCNF, 4NF, 5NF"
+        ],
+        "reference": [1, 2, 3],
+        "hours": 8
+      },
+      {
+        "moduleNumber": 3,
+        "title": "Transaction Management, Concurrency Control, Database Recovery",
+        "topics": [
+          "ACID properties, Transaction states, Serializability and its types",
+          "Recoverability, Concurrency control mechanism",
+          "Lock based protocol, Timestamp based protocol",
+          "Recovery Techniques based on Deferred and Immediate Update, Shadow paging, ARIES recovery algorithm"
+        ],
+        "reference": [1, 2, 3],
+        "hours": 10
+      },
+      {
+        "moduleNumber": 4,
+        "title": "Distributed and Parallel Database",
+        "topics": [
+          "Distributed Databases: Overview, Types, Data fragmentation, replication, and allocation techniques",
+          "Query processing and Concurrency control in Distributed DB",
+          "Parallel Databases: Architecture, Types of parallelism, Types of Partitioning"
+        ],
+        "reference": [1, 2],
+        "hours": 8
+      },
+      {
+        "moduleNumber": 5,
+        "title": "XML and Object-Based Databases",
+        "topics": [
+          "XML documents, Approaches to store XML documents, Extracting XML documents from Relational Database",
+          "Object-Based Databases: Complex data types, Inheritance in SQL, Object identity and Reference types in SQL"
+        ],
+        "reference": [1, 2, 3],
+        "hours": 10
+      },
+      {
+        "moduleNumber": 6,
+        "title": "Self-Study Topics",
+        "topics": [
+          "EER diagram designing",
+          "Tuple Relational Calculus and Domain Relational Calculus",
+          "Advanced Transaction Processing",
+          "LDAP model of Distributed Database",
+          "Database Security",
+          "Mobile and Multimedia Database",
+          "Data Storage Structures and Indexing"
+        ]
+      }
+    ]
+  },
+  {
+    "subjectCode": "MC503",
+    "subjectName": "Software Engineering",
+    "credits": 4,
+    "category": "PC",
+    "teachingScheme": {
+      "lecture": 3,
+      "tutorial": 0,
+      "practical": 2,
+      "other": 5,
+      "totalHours": 10
+    },
+    "examinationScheme": {
+      "ISE": 75,
+      "MSE": 75,
+      "ESE": 150,
+      "total": 300
+    },
+    "courseObjectives": [
+      "To introduce the fundamentals of software engineering principles and practices."
+    ],
+    "courseOutcomes": [
+      "MC503.1 Analyze requirements for relevant process models.",
+      "MC503.2 Design system models with Software Requirement Specification.",
+      "MC503.3 Apply estimation techniques for software planning.",
+      "MC503.4 Apply umbrella activities for the software."
+    ],
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Introduction to Software Process Models",
+        "topics": [
+          "Software Engineering concepts and Process Models: Prescriptive Model, Evolutionary Process Model, Incremental Model",
+          "Agile Software Development: Basics of Agile Process models, Principles of Agile, Agile Manifesto, Test Driven Development"
+        ],
+        "reference": [1, 2, 3],
+        "hours": 6
+      },
+      {
+        "moduleNumber": 2,
+        "title": "Requirement Engineering",
+        "topics": [
+          "Functional and Non-functional Requirement",
+          "Elicitation: Interviews, Questionnaire, Brainstorming, Facilitated Application Specification Technique",
+          "Requirement Analysis, Feasibility Study, Types of Feasibility",
+          "Software Requirement Specification, Validation",
+          "Agile Requirements: User stories, Backlog Management, Agile Architecture, Feature Driven Development"
+        ],
+        "reference": [1, 2, 5],
+        "hours": 6
+      },
+      {
+        "moduleNumber": 3,
+        "title": "Software Design",
+        "topics": [
+          "Architectural Design: Client Server, Pipe and Filter",
+          "Overview of UML Diagrams: Behavioral and Implementation view",
+          "Design Patterns: Gang of four patterns"
+        ],
+        "reference": [1, 2, 6],
+        "hours": 9
+      },
+      {
+        "moduleNumber": 4,
+        "title": "Software Project Scheduling",
+        "topics": [
+          "Work Breakdown Structure (WBS), Critical Path Method (CPM), Program Evaluation and Review Technique (PERT), Gantt Chart",
+          "Estimation: Decomposition techniques, Empirical estimation models",
+          "Agile Maturity Model and Agile Estimation Techniques: Planning Poker, Shirt Sizes, Dot Voting, Bucket System"
+        ],
+        "reference": [1, 2, 3],
+        "hours": 8
+      },
+      {
+        "moduleNumber": 5,
+        "title": "Software Testing",
+        "topics": [
+          "Verification & Validation",
+          "Overview of White Box Testing and Black Box Testing",
+          "Overview of Testing strategies and Agile Testing"
+        ],
+        "reference": [1, 2, 4],
+        "hours": 4
+      },
+      {
+        "moduleNumber": 6,
+        "title": "Software Umbrella Activities",
+        "topics": [
+          "Risk Management: Risk Identification, Risk Assessment, Risk Projection, Risk Mitigation, Monitoring and Management (RMMM)",
+          "Software Configuration Management (SCM): Version and change control, SCM process",
+          "Software Quality Assurance (SQA): Overview of McCall’s Quality Model"
+        ],
+        "reference": [1, 2, 4],
+        "hours": 9
+      },
+      {
+        "moduleNumber": 7,
+        "title": "Self-Study Topics",
+        "topics": [
+          "Requirement Prototyping, Cost Benefit Analysis, Cohesion and Coupling",
+          "Cleanroom Software engineering, 3R - Refactoring, Reengineering, Reusability"
+        ]
+      }
+    ]
+  },
+  {
+    "subjectCode": "MC504",
+    "subjectName": "Web Technology Lab",
+    "credits": 2,
+    "category": "SBC",
+    "teachingScheme": {
+      "lecture": 0,
+      "tutorial": 0,
+      "practical": 4,
+      "other": 4,
+      "totalHours": 8
+    },
+    "examinationScheme": {
+      "ISE": 100,
+      "MSE": 0,
+      "ESE": 100,
+      "total": 200
+    },
+    "courseObjectives": [
+      "To introduce the web technology concepts that are required for developing web applications."
+    ],
+    "courseOutcomes": [
+      "MC504.1 Create web pages using HTML5, CSS3, and JavaScript.",
+      "MC504.2 Design web pages using Angular concepts and components.",
+      "MC504.3 Develop dynamic web pages using Node and Express.js.",
+      "MC504.4 Develop web pages and store it in database using Node.js."
+    ],
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "HTML5, CSS3, and JavaScript",
+        "topics": [
+          "Create web pages using HTML5 and CSS3",
+          "Use JavaScript for client-side validation"
+        ],
+        "reference": [1, 2],
+        "hours": null
+      },
+      {
+        "moduleNumber": 2,
+        "title": "Angular Basics",
+        "topics": [
+          "Introduction to Angular concepts and components",
+          "Create a simple Angular application"
+        ],
+        "reference": [5],
+        "hours": null
+      },
+      {
+        "moduleNumber": 3,
+        "title": "Node.js and Express.js",
+        "topics": [
+          "Develop dynamic web pages using Node.js and Express.js",
+          "REST APIs using Node.js and Express.js"
+        ],
+        "reference": [6, 7],
+        "hours": null
+      },
+      {
+        "moduleNumber": 4,
+        "title": "Database Integration",
+        "topics": [
+          "Connect web pages to a database using Node.js",
+          "Perform CRUD operations using a database"
+        ],
+        "reference": [6, 7],
+        "hours": null
+      },
+      {
+        "moduleNumber": 5,
+        "title": "Self-Study Topics",
+        "topics": [
+          "Responsive design with media queries",
+          "Advanced features of Angular",
+          "Real-time web applications using Socket.io"
+        ]
+      }
+    ]
+  },
+  {
+    "subjectCode": "AS501",
+    "subjectName": "Writing Skills",
+    "credits": 2,
+    "category": "SBC",
+    "teachingScheme": {
+      "lecture": 1,
+      "tutorial": 0,
+      "practical": 2,
+      "other": 2,
+      "totalHours": 5
+    },
+    "examinationScheme": {
+      "ISE": 100,
+      "MSE": 0,
+      "ESE": 0,
+      "total": 100
+    },
+    "courseObjectives": [
+      "To apply the principles of business writing for professional documents.",
+      "To develop vocabulary and grammar for professional communication.",
+      "To draft formal reports."
+    ],
+    "courseOutcomes": [
+      "AS501.1 Apply the principles of business writing for professional documents.",
+      "AS501.2 Develop advanced vocabulary and grammar for spoken and written communication.",
+      "AS501.3 Draft a formal report."
+    ],
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Vocabulary Building & Grammar",
+        "topics": [
+          "Concept of word formation",
+          "Root words from foreign languages and their use in English",
+          "Common errors in writing, confused pair of words, redundancies, clichés"
+        ],
+        "reference": [],
+        "hours": 6
+      },
+      {
+        "moduleNumber": 2,
+        "title": "Writing Skills",
+        "topics": [
+          "Principles of Business Writing: 7 Cs of communication",
+          "Sentence structure, organizing paragraph in direct and indirect style",
+          "Summarization"
+        ],
+        "reference": [],
+        "hours": 9
+      },
+      {
+        "moduleNumber": 3,
+        "title": "Practices in Writing",
+        "topics": [
+          "Business Email: Email etiquettes",
+          "Business Letter: Full block format, modified block format",
+          "Job Application Letter: Cover letter, Resume writing",
+          "Meeting: Notice, Agenda, Minutes",
+          "Report Writing: Informative, Analytical reports"
+        ],
+        "reference": [],
+        "hours": 18
+      },
+      {
+        "moduleNumber": 4,
+        "title": "Self-Study Topics",
+        "topics": [
+          "Basic rules of grammar",
+          "GRE vocabulary",
+          "Reading a book (fiction/non-fiction) and writing a review of it"
+        ]
+      }
+    ]
+  }  
+]
+  
