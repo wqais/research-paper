@@ -19,4 +19,5 @@ feedback = [
         "The curriculum should include more case studies and real-world business scenarios.",
         "Students should be more proficient in using Git for version control and collaboration.",
         "An understanding of agile methodologies and working in a sprint-based environment is crucial.",
+        "Students need hands-on experience with Kubernetes."
     ]

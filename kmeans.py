@@ -11,6 +11,7 @@ import string
 import numpy as np
 import PyPDF2
 import json
+from kneed import KneeLocator
 
 
 class CustomEncoder(json.JSONEncoder):
@@ -32,6 +33,7 @@ def pdf_to_text(pdf_file_path):
         for page_num in range(len(pdf_reader.pages)):
             page = pdf_reader.pages[page_num]
             syllabus_text += page.extract_text()  # Corrected from `page.extraimport`
+    return syllabus_text
 
 
 def download_nltk_dependencies():
@@ -77,7 +79,7 @@ def preprocess_text(texts):
         return None, None
 
 
-def perform_clustering(texts, n_clusters=3):
+def perform_clustering(texts, n_clusters):
     try:
         vectorizer = TfidfVectorizer(max_features=100)
         X = vectorizer.fit_transform(texts)
@@ -112,7 +114,7 @@ def plot_clusters(X, labels, title="Feedback Clusters"):
 def plot_elbow_method(X):
     try:
         distortions = []
-        K = range(1, 11)
+        K = range(1, 21)
         for k in K:
             kmeans = KMeans(n_clusters=k, random_state=42)
             kmeans.fit(X)
@@ -124,8 +126,17 @@ def plot_elbow_method(X):
         plt.ylabel("Distortion")
         plt.title("Elbow Method For Optimal k")
         plt.show()
+
+        # Find the "elbow" point
+        knee_locator = KneeLocator(
+            K, distortions, curve="convex", direction="decreasing"
+        )
+        optimal_k = knee_locator.knee
+        print(f"Optimal number of clusters: {optimal_k}")
+        return optimal_k
     except Exception as e:
         print(f"Error in elbow method plotting: {str(e)}")
+        return None
 
 
 def analyze_clusters(texts, labels, feature_names, kmeans):
@@ -235,14 +246,20 @@ def main():
     if processed_texts is None:
         return
 
-    X, labels, feature_names, kmeans_model, vectorizer = perform_clustering(
-        processed_texts, n_clusters=3
-    )
+    # Convert processed texts to TF-IDF matrix
+    vectorizer = TfidfVectorizer(max_features=100)
+    X = vectorizer.fit_transform(processed_texts)
 
-    if X is None:
+    # Now pass the TF-IDF matrix to the elbow method
+    optimal_clusters = plot_elbow_method(X)
+    if optimal_clusters is not None:
+        X, labels, feature_names, kmeans_model, vectorizer = perform_clustering(
+            processed_texts, n_clusters=optimal_clusters
+        )
+    else:
+        print("Could not determine the optimal number of clusters.")
         return
 
-    plot_elbow_method(X)
     analyze_clusters(processed_texts, labels, feature_names, kmeans_model)
     plot_clusters(X, labels)
 
@@ -266,17 +283,19 @@ def main():
             ),
             None,
         )
-        updated_syllabus = syllabus_data.copy()
-    for subject in updated_syllabus:
-        matched_cluster = next((match for cluster, match in matches.items() if match['matched_topic'] == subject['subjectName']), None)
         if matched_cluster:
-            if matched_cluster['similarity_score'] < 0.3:
-                subject['modification_suggestion'] = f"Consider adding or expanding content on {matched_cluster['matched_topic']} (low similarity with syllabus)."
+            if matched_cluster["similarity_score"] < 0.3:
+                subject["modification_suggestion"] = (
+                    f"Consider adding or expanding content on {matched_cluster['matched_topic']} (low similarity with syllabus)."
+                )
             else:
-                subject['modification_suggestion'] = f"Topic '{matched_cluster['matched_topic']}' sufficiently covers {subject['subjectName']}."
+                subject["modification_suggestion"] = (
+                    f"Topic '{matched_cluster['matched_topic']}' sufficiently covers {subject['subjectName']}."
+                )
         else:
-            subject['modification_suggestion'] = "No matching topic found for this subject. Consider reviewing the syllabus content."
-
+            subject["modification_suggestion"] = (
+                "No matching topic found for this subject. Consider reviewing the syllabus content."
+            )
 
     with open("updatedsyllabus.json", "w") as outfile:
         json.dump(updated_syllabus, outfile, indent=4, cls=CustomEncoder)
