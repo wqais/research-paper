@@ -12,6 +12,7 @@ import numpy as np
 import PyPDF2
 import json
 from kneed import KneeLocator
+from feedback import feedback
 
 
 class CustomEncoder(json.JSONEncoder):
@@ -69,9 +70,9 @@ def preprocess_text(texts):
             all_tokens.append(tokens)
             processed_texts.append(" ".join(tokens))
 
-        print("\nTokenized Preprocessed Feedback:")
-        for idx, tokens in enumerate(all_tokens):
-            print(f"Feedback {idx + 1}: {tokens}")
+        print("\nTokenized Preprocessed Feedback is ready")
+        # for idx, tokens in enumerate(all_tokens):
+        #     print(f"Feedback {idx + 1}: {tokens}")
 
         return processed_texts, all_tokens
     except Exception as e:
@@ -216,29 +217,6 @@ def suggest_syllabus_modifications(matches, threshold=0.3):
 
 
 def main():
-    feedback = [
-        "Students need stronger problem-solving skills, especially in coding challenges.",
-        "Effective communication and teamwork abilities are essential for success.",
-        "Hands-on experience with real-world projects in cybersecurity would be valuable.",
-        "There is a lack of understanding of data structures and algorithms among students.",
-        "Practical knowledge of cloud computing, such as AWS or Azure, is highly desired.",
-        "Students should focus more on time management and organizational skills.",
-        "A deeper understanding of machine learning concepts and applications is required.",
-        "More emphasis on leadership and project management skills is necessary.",
-        "Programming languages like Python and Java should be mastered by students.",
-        "Critical thinking and analytical reasoning need improvement in student performance.",
-        "Experience with DevOps tools like Docker and Kubernetes would be beneficial.",
-        "The curriculum lacks focus on artificial intelligence and deep learning techniques.",
-        "Students should gain better proficiency in software testing and debugging practices.",
-        "Soft skills like negotiation, conflict resolution, and presentation skills need attention.",
-        "Familiarity with cybersecurity practices, such as encryption and secure coding, is essential.",
-        "Practical experience with front-end frameworks like React or Angular is in demand.",
-        "A stronger focus on database management systems like SQL and NoSQL is needed.",
-        "The curriculum should include more case studies and real-world business scenarios.",
-        "Students should be more proficient in using Git for version control and collaboration.",
-        "An understanding of agile methodologies and working in a sprint-based environment is crucial.",
-    ]
-
     if not download_nltk_dependencies():
         return
 
