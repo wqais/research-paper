@@ -1,21 +1,7 @@
-[{
+[
+  {
     "subjectCode": "MA501",
     "subjectName": "Linear Algebra",
-    "credits": 3,
-    "category": "BSC",
-    "teachingScheme": {
-      "lecture": 2,
-      "tutorial": 1,
-      "practical": 0,
-      "other": 5,
-      "totalHours": 8
-    },
-    "examinationScheme": {
-      "ISE": 75,
-      "MSE": 75,
-      "ESE": 150,
-      "total": 300
-    },
     "courseObjectives": [
       "To develop mathematical skills for solving computer science problems."
     ],
@@ -62,9 +48,7 @@
       {
         "moduleNumber": 4,
         "title": "Encoding & decoding using Matrices",
-        "topics": [
-          "Application of matrices to coding and decoding"
-        ],
+        "topics": ["Application of matrices to coding and decoding"],
         "reference": [4],
         "hours": 2
       },
@@ -93,24 +77,7 @@
   {
     "subjectCode": "MC501",
     "subjectName": "Data Structures",
-    "credits": 3,
-    "category": "PC",
-    "teachingScheme": {
-      "lecture": 2,
-      "tutorial": 0,
-      "practical": 2,
-      "other": 4,
-      "totalHours": 8
-    },
-    "examinationScheme": {
-      "ISE": 50,
-      "MSE": 50,
-      "ESE": 100,
-      "total": 200
-    },
-    "courseObjectives": [
-      "To learn fundamentals of Data Structures."
-    ],
+    "courseObjectives": ["To learn fundamentals of Data Structures."],
     "courseOutcomes": [
       "MC501.1 Apply various operations of Stack, Queue and Linked List to solve problems from different domains.",
       "MC501.2 Apply various operations of Tree and Graph to solve problems from different domains.",
@@ -188,26 +155,96 @@
     ]
   },
   {
+    "subjectCode": "MA502",
+    "subjectName": "Discrete Mathematics",
+    "courseObjectives": [
+      "To be familiar with a broad range of mathematical objects like sets, functions, relational graphs that is omnipresent in computer science."
+    ],
+    "courseOutcomes": [
+      "MA502.1 Construct simple mathematical proofs and verify them.",
+      "MA502.2 Apply core ideas of Set Theory, Logic, Relations Functions, and Recurrence Relations.",
+      "MA502.3 Solve examples using graphs, trees and their various types with their traversing techniques."
+    ],
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Set Theory and Logic",
+        "topics": [
+          "Finite and infinite set",
+          "Union, Intersection, Disjoint, and Difference of two sets",
+          "Power Set, Partition of Sets",
+          "Ordered Sets",
+          "De Morgan’s Laws",
+          "Principle of Inclusion Exclusion",
+          "Propositional Logic",
+          "Propositional Equivalences",
+          "Predicates and Quantifiers",
+          "Nested Quantifiers",
+          "Methods of Proof",
+          "Mathematical Induction",
+          "Relations and Diagraphs - Properties of Relations"
+        ],
+        "reference": [1, 2, 4],
+        "hours": 6
+      },
+      {
+        "moduleNumber": 2,
+        "title": "Relational Structures on Sets: Relations & Graphs",
+        "topics": [
+          "Relations, Equivalence Relations",
+          "Functions, Bijections",
+          "Binary relations and Graph",
+          "Trees (Basics)",
+          "Posets and Lattices",
+          "Hasse Diagrams",
+          "Boolean Algebra"
+        ],
+        "reference": [1, 2],
+        "hours": 8
+      },
+      {
+        "moduleNumber": 3,
+        "title": "Sizes of Sets: Counting & Combinatorics",
+        "topics": [
+          "Counting, Sum and product rule",
+          "Principle of Inclusion Exclusion",
+          "Double Counting",
+          "Pigeon Hole Principle",
+          "Counting by Bijections",
+          "Linear Recurrence relations - methods of solutions",
+          "Generating Functions",
+          "Permutations and counting"
+        ],
+        "reference": [1, 2],
+        "hours": 8
+      },
+      {
+        "moduleNumber": 4,
+        "title": "Structured Sets: Algebraic Structures",
+        "topics": [
+          "Structured sets with respect to binary operations",
+          "Groups, Semigroups, Monoids, Rings, and Fields",
+          "Vector Spaces, Basis"
+        ],
+        "reference": [1, 2, 3],
+        "hours": 6
+      },
+      {
+        "moduleNumber": 5,
+        "title": "Self-Study Topics",
+        "topics": [
+          "Coding Theory",
+          "Isomorphic Lattices",
+          "Regular Grammar",
+          "Finite Automata"
+        ]
+      }
+    ]
+  },
+  {
     "subjectCode": "MC502",
     "subjectName": "Database Management System",
-    "credits": 4,
-    "category": "PC",
-    "teachingScheme": {
-      "lecture": 3,
-      "tutorial": 0,
-      "practical": 2,
-      "other": 5,
-      "totalHours": 10
-    },
-    "examinationScheme": {
-      "ISE": 75,
-      "MSE": 75,
-      "ESE": 150,
-      "total": 300
-    },
-    "courseObjectives": [
-      "To learn the fundamentals of database systems."
-    ],
+    "courseObjectives": ["To learn the fundamentals of database systems."],
     "courseOutcomes": [
       "MC502.1 Design ER diagram and relational database.",
       "MC502.2 Apply normalization on given database.",
@@ -292,15 +329,6 @@
   {
     "subjectCode": "MC503",
     "subjectName": "Software Engineering",
-    "credits": 4,
-    "category": "PC",
-    "teachingScheme": {
-      "lecture": 3,
-      "tutorial": 0,
-      "practical": 2,
-      "other": 5,
-      "totalHours": 10
-    },
     "examinationScheme": {
       "ISE": 75,
       "MSE": 75,
@@ -398,20 +426,6 @@
     "subjectCode": "MC504",
     "subjectName": "Web Technology Lab",
     "credits": 2,
-    "category": "SBC",
-    "teachingScheme": {
-      "lecture": 0,
-      "tutorial": 0,
-      "practical": 4,
-      "other": 4,
-      "totalHours": 8
-    },
-    "examinationScheme": {
-      "ISE": 100,
-      "MSE": 0,
-      "ESE": 100,
-      "total": 200
-    },
     "courseObjectives": [
       "To introduce the web technology concepts that are required for developing web applications."
     ],
@@ -476,21 +490,6 @@
   {
     "subjectCode": "AS501",
     "subjectName": "Writing Skills",
-    "credits": 2,
-    "category": "SBC",
-    "teachingScheme": {
-      "lecture": 1,
-      "tutorial": 0,
-      "practical": 2,
-      "other": 2,
-      "totalHours": 5
-    },
-    "examinationScheme": {
-      "ISE": 100,
-      "MSE": 0,
-      "ESE": 0,
-      "total": 100
-    },
     "courseObjectives": [
       "To apply the principles of business writing for professional documents.",
       "To develop vocabulary and grammar for professional communication.",
@@ -547,6 +546,1243 @@
         ]
       }
     ]
-  }  
+  },
+  {
+    "subjectCode": "MC505",
+    "subjectName": "Problem Solving Using Object Oriented Programming Lab",
+    "courseObjectives": [
+      "To develop programming skills of students, using object oriented programming concepts, learn the concept of class and object using C++ and develop classes for simple applications."
+    ],
+    "courseOutcomes": [
+      "MC505.1 Construct programs using basic control structures.",
+      "MC505.2 Apply objects and structures in problem solving.",
+      "MC505.3 Apply arrays and pointers efficiently to solve the problems.",
+      "MC505.4 Design the solutions using inheritance and polymorphism.",
+      "MC505.5 Apply concepts of virtual functions, exception handling to create efficient solutions.",
+      "MC505.6 Construct the solutions using File handling and Standard Template Library."
+    ],
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Introduction",
+        "topics": [
+          "Problem Solving Methodology and Techniques",
+          "Introduction to Object-Oriented Programming",
+          "Basic Elements of C++",
+          "Control Structures"
+        ],
+        "reference": [1, 2],
+        "hours": 3
+      },
+      {
+        "moduleNumber": 2,
+        "title": "Objects and Classes",
+        "topics": [
+          "A Simple Class",
+          "Classes and Objects",
+          "Defining the Class",
+          "Physical C++ Objects as Data Types",
+          "Function Structure",
+          "Objects As Function Arguments",
+          "Returning Objects From Functions",
+          "Passing Arguments To Functions",
+          "Returning Values From Functions",
+          "Reference Arguments",
+          "Recursion",
+          "Inline Functions",
+          "Default Arguments",
+          "Macros",
+          "Friend Function",
+          "Static Functions",
+          "Constructors and Destructors",
+          "Arrays as Class Member Data",
+          "Arrays of Object",
+          "String",
+          "The Standard C++ String Class",
+          "Addresses and Pointers",
+          "Memory Management: New and Delete",
+          "Pointers to Objects",
+          "This Pointer",
+          "Pointer to Functions"
+        ],
+        "reference": [1, 2],
+        "hours": 8
+      },
+      {
+        "moduleNumber": 3,
+        "title": "OOP Concepts",
+        "topics": [
+          "Overloading Overloaded Functions",
+          "Overloading Unary Operations",
+          "Overloading Binary Operators",
+          "Data Conversion",
+          "Pitfalls of Operators Overloading and Conversion Keywords",
+          "Inheritance: Concept of Inheritance",
+          "Derived Class and Base Class",
+          "Derived Class Constructors",
+          "Member Function",
+          "Class Hierarchies",
+          "Public and Private Inheritance",
+          "Aggregation: Classes within Classes",
+          "Inheritance and Program Development",
+          "Virtual Functions",
+          "Normal Member Functions Accessed with Pointers",
+          "Virtual Member Functions Accessed with Pointers",
+          "Late Binding",
+          "Abstract Classes and Pure Virtual Functions",
+          "Virtual Destructors",
+          "Virtual Base Classes",
+          "Friend Functions",
+          "Friend Classes",
+          "Static Functions",
+          "Accessing Static Functions",
+          "Numbering the Objects"
+        ],
+        "reference": [1, 2],
+        "hours": 12
+      },
+      {
+        "moduleNumber": 4,
+        "title": "File Handling",
+        "topics": [
+          "C++ Streams",
+          "Unformatted / Formatted I/O Operations",
+          "Managing Output with Manipulators",
+          "Creating/Opening/Closing/Deleting Files",
+          "File Pointers and their Manipulators",
+          "Random Access to File",
+          "Errors Handling During File Operations",
+          "Command Line Arguments"
+        ],
+        "reference": [1, 2],
+        "hours": 5
+      },
+      {
+        "moduleNumber": 5,
+        "title": "Self-Study Topics",
+        "topics": [
+          "STL (Standard Template Library)",
+          "Introduction to STL",
+          "Components of STL",
+          "Containers",
+          "Iterators and Function Objects"
+        ]
+      }
+    ]
+  },
+  {
+    "subjectCode": "MA503",
+    "subjectName": "Probability and Statistics",
+    "courseObjectives": [
+      "To give an exposure to the students about the basic concepts of Probability and Statistical methods and their application."
+    ],
+    "courseOutcomes": [
+      "MA503.1 Apply different statistical measures on various types of data.",
+      "MA503.2 Perform Hypothesis testing on the data given to validate the assumptions.",
+      "MA503.3 Illustrate basic probability axioms, rules and their applicability.",
+      "MA503.4 Apply probability distribution to solve given problems."
+    ],
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Measures of Central Tendency & Measures of Dispersion",
+        "topics": [
+          "Continuous Frequency Distribution",
+          "Histogram",
+          "Frequency Polygon",
+          "Stem and Leaf Diagram",
+          "Ogives",
+          "Arithmetic Mean",
+          "Geometric Mean",
+          "Harmonic Mean",
+          "Median",
+          "Range",
+          "Quartile Deviation",
+          "Mean Deviation",
+          "Box Whisker Plot",
+          "Standard Deviation",
+          "Coefficient of Variation"
+        ],
+        "reference": [1, 2],
+        "hours": 4
+      },
+      {
+        "moduleNumber": 2,
+        "title": "Skewness, Correlation & Regression",
+        "topics": [
+          "Karl Pearson’s Coefficient of Skewness",
+          "Bowley’s Coefficient of Skewness",
+          "Scatter Diagram",
+          "Correlation",
+          "Karl Pearson’s Coefficient of Correlation",
+          "Spearman’s Rank Correlation Coefficient",
+          "Linear Regression and Estimation",
+          "Coefficients of Regression"
+        ],
+        "reference": [1, 2],
+        "hours": 8
+      },
+      {
+        "moduleNumber": 3,
+        "title": "Testing of Hypothesis",
+        "topics": [
+          "Hypothesis, Type I and Type II errors",
+          "Tests of significance – Student's t-test: Single Mean, Difference of Means",
+          "F, Z, Paired t-test",
+          "ANOVA",
+          "Chi-Square Test: Test of Goodness of Fit, Independence Test"
+        ],
+        "reference": [1, 2],
+        "hours": 8
+      },
+      {
+        "moduleNumber": 4,
+        "title": "Introduction to Probability",
+        "topics": [
+          "Random Experiment",
+          "Sample Space",
+          "Events",
+          "Axiomatic Probability",
+          "Algebra of Events",
+          "Discrete, Continuous and Mixed Random Variables",
+          "Probability Mass Function (PMF)",
+          "Probability Density Function (PDF)",
+          "Cumulative Distribution Function (CDF)"
+        ],
+        "reference": [1, 2],
+        "hours": 4
+      },
+      {
+        "moduleNumber": 5,
+        "title": "Conditional Probability",
+        "topics": [
+          "Conditional Probability",
+          "Multiplication Theorem of Probability",
+          "Independent Events",
+          "Baye’s Theorem",
+          "Special Theoretical Probability Distributions - Bernoulli, Binomial, Uniform, Normal, Exponential",
+          "Cumulative Distribution Function",
+          "Expectation and Variance"
+        ],
+        "reference": [1, 2],
+        "hours": 9
+      },
+      {
+        "moduleNumber": 6,
+        "title": "Random Variables and Mathematical Expectation",
+        "topics": [
+          "Discrete Random Variable",
+          "Continuous Random Variable",
+          "Two-Dimensional Random Variable",
+          "Joint Probability Distribution",
+          "Stochastic Independence",
+          "Properties of Expectation",
+          "Properties of Variance",
+          "Covariance"
+        ],
+        "reference": [1, 2],
+        "hours": 9
+      },
+      {
+        "moduleNumber": 7,
+        "title": "Self-Study Topics",
+        "topics": [
+          "Applied Probability",
+          "Stochastic Processes",
+          "Geometric Probability"
+        ]
+      }
+    ]
+  },
+  {
+    "subjectCode": "MC506",
+    "subjectName": "Java Programming",
+    "courseObjectives": [
+      "To build programming concepts using object-oriented constructs.",
+      "To analyze real-world problems for database connection and file handling using exception handling.",
+      "To develop web applications using JSP and Servlets.",
+      "To explain the concept of Spring and Hibernate in advanced Java programming."
+    ],
+    "courseOutcomes": [
+      "MC506.1 Build programming concept using OO constructs.",
+      "MC506.2 Analyze real world problem for database connection and file handling using Exception handling.",
+      "MC506.3 Develop Web Applications using JSP and Servlets.",
+      "MC506.4 Explain concept of Spring and Hibernate in advanced Java programming."
+    ],
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Introduction to Java",
+        "topics": [
+          "Java Basics: Data Types, Variables, and Operators",
+          "Control Statements: Conditional Statements and Loops",
+          "Arrays and Strings",
+          "Methods and Method Overloading"
+        ],
+        "reference": [1, 2],
+        "hours": 6
+      },
+      {
+        "moduleNumber": 2,
+        "title": "Object-Oriented Programming in Java",
+        "topics": [
+          "Classes and Objects",
+          "Constructors",
+          "Inheritance and Its Types",
+          "Polymorphism: Method Overriding and Overloading",
+          "Abstract Classes and Interfaces"
+        ],
+        "reference": [1, 2],
+        "hours": 8
+      },
+      {
+        "moduleNumber": 3,
+        "title": "Exception Handling and File Handling",
+        "topics": [
+          "Exception Handling: Try, Catch, Finally, Throw, Throws",
+          "Creating User-Defined Exceptions",
+          "File Handling: File Class, FileReader, FileWriter",
+          "Serialization and Deserialization"
+        ],
+        "reference": [1, 2],
+        "hours": 8
+      },
+      {
+        "moduleNumber": 4,
+        "title": "Java Database Connectivity (JDBC)",
+        "topics": [
+          "JDBC Overview and Architecture",
+          "Types of JDBC Drivers",
+          "Establishing Connectivity with Database",
+          "Executing SQL Statements"
+        ],
+        "reference": [1, 2],
+        "hours": 6
+      },
+      {
+        "moduleNumber": 5,
+        "title": "Web Development with Java",
+        "topics": [
+          "Introduction to Servlets",
+          "Servlet Life Cycle",
+          "Handling HTTP Requests and Responses",
+          "JavaServer Pages (JSP) Basics"
+        ],
+        "reference": [1, 2],
+        "hours": 8
+      },
+      {
+        "moduleNumber": 6,
+        "title": "Advanced Java Concepts",
+        "topics": [
+          "Introduction to Spring Framework",
+          "Spring MVC Architecture",
+          "Hibernate Basics",
+          "CRUD Operations using Hibernate"
+        ],
+        "reference": [1, 2],
+        "hours": 6
+      },
+      {
+        "moduleNumber": 7,
+        "title": "Self-Study Topics",
+        "topics": [
+          "Java Collections Framework",
+          "Multithreading in Java",
+          "Java 8 Features: Lambda Expressions and Streams"
+        ]
+      }
+    ]
+  },
+  {
+    "subjectCode": "MC507",
+    "subjectName": "Design and Analysis of Algorithms",
+    "courseObjectives": [
+      "To analyze time and space complexity of different algorithms.",
+      "To analyze various divide & conquer algorithms.",
+      "To apply greedy and dynamic methods to given problems.",
+      "To utilize backtracking, branch and bound techniques, and graphs to solve problems."
+    ],
+    "courseOutcomes": [
+      "MC507.1 Analyze time and space complexity of different algorithms.",
+      "MC507.2 Analyze various divide & conquer algorithms.",
+      "MC507.3 Apply greedy and dynamic method to given problem.",
+      "MC507.4 Make use of backtracking, branch and bound techniques, and graphs to solve a problem."
+    ],
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Fundamentals of Algorithmic Problem Solving",
+        "topics": [
+          "The Role of Algorithms in Computing",
+          "Growth of Functions",
+          "The Substitution Method",
+          "Master Method",
+          "Recursion Tree Method",
+          "Time Complexity: Worst Case, Best Case, Average Case Analysis",
+          "Space Complexity",
+          "Asymptotic Notations: Big O, Omega, Theta"
+        ],
+        "reference": [1, 2],
+        "hours": 4
+      },
+      {
+        "moduleNumber": 2,
+        "title": "Analysis of Various Algorithms and Divide and Conquer",
+        "topics": [
+          "Binary Search Analysis",
+          "Merge Sort Analysis",
+          "Quick Sort Analysis",
+          "Matrix Multiplication",
+          "Internal Sorting Techniques",
+          "External Sorting Techniques",
+          "Complexity Calculation of Sorting Techniques using Asymptotic Notation"
+        ],
+        "reference": [1, 2],
+        "hours": 4
+      },
+      {
+        "moduleNumber": 3,
+        "title": "Greedy Method & Dynamic Programming",
+        "topics": [
+          "Introduction to Greedy Method",
+          "Knapsack Problem",
+          "Minimum Cost Spanning Tree: Kruskal and Prim's Algorithm",
+          "Introduction to Dynamic Programming",
+          "0/1 Knapsack Problem",
+          "Matrix Chain Multiplication",
+          "Longest Common Subsequence",
+          "Optimal Binary Search Tree"
+        ],
+        "reference": [1, 2],
+        "hours": 6
+      },
+      {
+        "moduleNumber": 4,
+        "title": "Backtracking",
+        "topics": [
+          "Introduction to Backtracking Method",
+          "8 Queens Problem",
+          "Graph Coloring",
+          "Hamiltonian Cycles",
+          "The Subset Sum Problem"
+        ],
+        "reference": [1, 2],
+        "hours": 5
+      },
+      {
+        "moduleNumber": 5,
+        "title": "Branch and Bound",
+        "topics": [
+          "Introduction to Branch and Bound Technique",
+          "Bounding and FIFO Branch and Bound",
+          "Least Cost Search Branch and Bound",
+          "15-Puzzle Problem",
+          "Travelling Salesman Problem"
+        ],
+        "reference": [1, 2],
+        "hours": 4
+      },
+      {
+        "moduleNumber": 6,
+        "title": "Graph Algorithms",
+        "topics": [
+          "Single Source Shortest Path: Dijkstra's Algorithm",
+          "Bellman-Ford Algorithm",
+          "All Pair Shortest Path: Floyd-Warshall Algorithm",
+          "Johnson's Algorithm",
+          "Max Flow Algorithm: Ford-Fulkerson Method",
+          "Maximum Bipartite Matching",
+          "Push-Relabel Algorithm"
+        ],
+        "reference": [1, 2],
+        "hours": 5
+      },
+      {
+        "moduleNumber": 7,
+        "title": "Self-Study Topics",
+        "topics": [
+          "String Matching Algorithm: Brute Force String Matching",
+          "String Matching with Finite Automata",
+          "Rabin-Karp String Matching",
+          "Approximation Algorithm: P and NP Complete Problem",
+          "P and NP Hard Problem"
+        ],
+        "reference": [1, 2],
+        "hours": 4
+      }
+    ]
+  },
+  {
+    "subjectCode": "MC508",
+    "subjectName": "Process Automation",
+    "courseObjectives": [
+      "To give students exposure about process automation, its working, importance and security related to it."
+    ],
+    "courseOutcomes": [
+      "MC508.1 Explain the basics of Process Automation.",
+      "MC508.2 Analyze the methodologies and techniques used in Process Automation.",
+      "MC508.3 Develop the BOTs using Process Automation.",
+      "MC508.4 Explain different intelligent Process Automation techniques.",
+      "MC508.5 Analyze the securities required for Process Automation."
+    ],
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Robotics Process Automation: Foundations and Skills",
+        "topics": [
+          "Introduction to RPA",
+          "Different types of RPA Approaches",
+          "History of RPA",
+          "Benefits and Limitations of RPA",
+          "Terms and concepts used in RPA",
+          "Levels of RPA"
+        ],
+        "reference": [1, 2],
+        "hours": 5
+      },
+      {
+        "moduleNumber": 2,
+        "title": "RPA Methodologies, Planning and Vendor Evaluation",
+        "topics": [
+          "Introduction to Lean",
+          "Introduction to Six Sigma",
+          "Six Sigma roles and levels",
+          "Lean Six Sigma",
+          "Finding the right balance and applying lean and six sigma to RPA",
+          "ROI for RPA"
+        ],
+        "reference": [1, 2],
+        "hours": 5
+      },
+      {
+        "moduleNumber": 3,
+        "title": "Developing BOTs using RPA",
+        "topics": [
+          "Analysis of Business Process and development of BOT",
+          "Activities, Flowcharts and sequences",
+          "Log Message, loops and conditions",
+          "Best practices for BOT Development",
+          "Evaluating BOT Performance",
+          "Testing and Monitoring"
+        ],
+        "reference": [1, 2],
+        "hours": 6
+      },
+      {
+        "moduleNumber": 4,
+        "title": "Intelligent Automation",
+        "topics": [
+          "Cognitive Automation",
+          "Intelligent Process Automation or IPA",
+          "Examples of cognitive RPA",
+          "Web Scraping"
+        ],
+        "reference": [1, 2],
+        "hours": 6
+      },
+      {
+        "moduleNumber": 5,
+        "title": "Security of Process Automation",
+        "topics": [
+          "Security Challenges for RPA",
+          "Secured BOT Development and Deployment",
+          "Secured BOT architecture design"
+        ],
+        "reference": [1, 2],
+        "hours": 6
+      },
+      {
+        "moduleNumber": 6,
+        "title": "Self-Study Topics",
+        "topics": [
+          "RPA compared to BPA, BPM and BPO",
+          "Key challenges in RPA",
+          "RPA use cases and the planning",
+          "RPA vendor evaluation",
+          "Types of Data for RPA",
+          "Data Process and Types of Algorithms",
+          "Managing RPA Implementation Cycle",
+          "Types of BOTs",
+          "Examples of BOTs"
+        ],
+        "reference": [1, 2],
+        "hours": 4
+      }
+    ]
+  },
+  {
+    "subjectCode": "MC508",
+    "subjectName": "Process Automation",
+    "courseObjectives": [
+      "To give students exposure about process automation, its working, importance and security related to it."
+    ],
+    "courseOutcomes": [
+      "MC508.1 Explain the basics of Process Automation.",
+      "MC508.2 Analyze the methodologies and techniques used in Process Automation.",
+      "MC508.3 Develop the BOTs using Process Automation.",
+      "MC508.4 Explain different intelligent Process Automation techniques.",
+      "MC508.5 Analyze the securities required for Process Automation."
+    ],
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Robotics Process Automation: Foundations and Skills",
+        "topics": [
+          "Introduction to RPA",
+          "Different types of RPA Approaches",
+          "History of RPA",
+          "Benefits and Limitations of RPA",
+          "Terms and concepts used in RPA",
+          "Levels of RPA"
+        ],
+        "reference": [1, 2],
+        "hours": 5
+      },
+      {
+        "moduleNumber": 2,
+        "title": "RPA Methodologies, Planning and Vendor Evaluation",
+        "topics": [
+          "Introduction to Lean",
+          "Introduction to Six Sigma",
+          "Six Sigma roles and levels",
+          "Lean Six Sigma",
+          "Finding the right balance and applying lean and six sigma to RPA",
+          "ROI for RPA"
+        ],
+        "reference": [1, 2],
+        "hours": 5
+      },
+      {
+        "moduleNumber": 3,
+        "title": "Developing BOTs using RPA",
+        "topics": [
+          "Analysis of Business Process and development of BOT",
+          "Activities, Flowcharts and sequences",
+          "Log Message, loops and conditions",
+          "Best practices for BOT Development",
+          "Evaluating BOT Performance",
+          "Testing and Monitoring"
+        ],
+        "reference": [1, 2],
+        "hours": 6
+      },
+      {
+        "moduleNumber": 4,
+        "title": "Intelligent Automation",
+        "topics": [
+          "Cognitive Automation",
+          "Intelligent Process Automation or IPA",
+          "Examples of cognitive RPA",
+          "Web Scraping"
+        ],
+        "reference": [1, 2],
+        "hours": 6
+      },
+      {
+        "moduleNumber": 5,
+        "title": "Security of Process Automation",
+        "topics": [
+          "Security Challenges for RPA",
+          "Secured BOT Development and Deployment",
+          "Secured BOT architecture design"
+        ],
+        "reference": [1, 2],
+        "hours": 6
+      },
+      {
+        "moduleNumber": 6,
+        "title": "Self-Study Topics",
+        "topics": [
+          "RPA compared to BPA, BPM and BPO",
+          "Key challenges in RPA",
+          "RPA use cases and the planning",
+          "RPA vendor evaluation",
+          "Types of Data for RPA",
+          "Data Process and Types of Algorithms",
+          "Managing RPA Implementation Cycle",
+          "Types of BOTs",
+          "Examples of BOTs"
+        ],
+        "reference": [1, 2],
+        "hours": 4
+      }
+    ]
+  },
+  {
+    "subjectCode": "MC509",
+    "subjectName": "Mobile Programming Lab",
+    "courseObjectives": [
+      "To provide students with good knowledge and training about the Ionic framework along with databases using Firebase and Node."
+    ],
+    "courseOutcomes": [
+      "MC509.1 Install the Ionic framework with all the dependencies.",
+      "MC509.2 Create apps using the components of the Ionic framework and SASS stylesheet.",
+      "MC509.3 Create apps using APIs of the Ionic framework.",
+      "MC509.4 Create apps with backend connectivity."
+    ],
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Installation and Basic Application",
+        "topics": [
+          "To install Ionic and its development environment.",
+          "Run the basic default application to understand the files used."
+        ]
+      },
+      {
+        "moduleNumber": 2,
+        "title": "Museum App Development",
+        "topics": [
+          "Create a Museum app using basic UI components and SASS (Syntactically Awesome Style Sheets)."
+        ]
+      },
+      {
+        "moduleNumber": 3,
+        "title": "Department App with Tabs Navigation",
+        "topics": [
+          "Create an app for the MCA department using Tabs Navigation."
+        ]
+      },
+      {
+        "moduleNumber": 4,
+        "title": "File Handling App",
+        "topics": [
+          "Create an app to upload, download, and view PDF in an image."
+        ]
+      },
+      {
+        "moduleNumber": 5,
+        "title": "SPIT App Development",
+        "topics": [
+          "Create SPIT app using side navigation drawer and Tabs navigation."
+        ]
+      },
+      {
+        "moduleNumber": 6,
+        "title": "Educational App for Children",
+        "topics": ["Create an app for children to study numbers and alphabets."]
+      },
+      {
+        "moduleNumber": 7,
+        "title": "Camera and Calendar API Integration",
+        "topics": [
+          "Develop an app with Camera and Calendar API integrated in one app."
+        ]
+      },
+      {
+        "moduleNumber": 8,
+        "title": "HTTP Request and Response",
+        "topics": [
+          "Implement HTTP request and response (REST API) to update and retrieve data in JSON file."
+        ]
+      },
+      {
+        "moduleNumber": 9,
+        "title": "Student Information App with Firebase",
+        "topics": [
+          "Create an app to store student information using Firebase as database."
+        ]
+      },
+      {
+        "moduleNumber": 10,
+        "title": "Feedback App with Firebase",
+        "topics": [
+          "Create an app for feedback of students along with the ratings and store and retrieve from Firebase."
+        ]
+      }
+    ]
+  },
+  {
+    "subjectCode": "AS502",
+    "subjectName": "Communication and Presentation Skills",
+    "courseObjectives": [
+      "To enhance students' communication abilities and presentation skills for professional settings."
+    ],
+    "courseOutcomes": [
+      "AS502.1 Demonstrate persuasive skills in interviews.",
+      "AS502.2 Demonstrate creative and critical thinking in Group Discussions.",
+      "AS502.3 Explain research, analysis, and presentation skills.",
+      "AS502.4 Apply data transformation skills."
+    ],
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Persuasive Skills in Interviews",
+        "topics": [
+          "Persuasion using facial expressions, gestures, body language.",
+          "Persuasion using voice, verbal style, verbal content.",
+          "Interview skills."
+        ]
+      },
+      {
+        "moduleNumber": 2,
+        "title": "Creative and Critical Thinking",
+        "topics": [
+          "Different Perspectives to a situation.",
+          "Group Discussion Skills.",
+          "Picture-based group discussions."
+        ]
+      },
+      {
+        "moduleNumber": 3,
+        "title": "Research, Analysis, and Presentation Skills",
+        "topics": [
+          "What is research? Types of research.",
+          "Citation styles – a glimpse.",
+          "Basic Literature Review and Presentation."
+        ]
+      },
+      {
+        "moduleNumber": 4,
+        "title": "Data Transformation",
+        "topics": [
+          "Graphics to Paragraphs and vice versa.",
+          "Oral interpretation of graphics.",
+          "Research Paper, News Analysis."
+        ]
+      }
+    ],
+    "selfStudyTopics": [
+      "Mock Interview practices.",
+      "Group Discussion techniques.",
+      "Effective Presentation strategies."
+    ]
+  },
+  {
+    "subjectCode": "MC511",
+    "subjectName": "Machine Learning",
+    "courseObjectives": [
+      "To introduce basic concepts and techniques of machine learning and develop skills of using recent machine learning software for solving practical problems."
+    ],
+    "courseOutcomes": [
+      "MC511.1 Explain basic concept and need of machine learning.",
+      "MC511.2 Apply machine learning algorithms to solve the given problem.",
+      "MC511.3 Explain various reinforcement learning techniques.",
+      "MC511.4 Apply Dimensionality reduction techniques.",
+      "MC511.5 Make use of basic concepts of Python/R to solve given problems."
+    ],
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Introduction To Machine Learning",
+        "topics": [
+          "Need of machine learning.",
+          "Machine learning vs AI, machine learning vs Deep learning.",
+          "Learning types: Supervised Learning, Unsupervised learning, Reinforcement learning.",
+          "Applications of machine learning.",
+          "General Steps or Process of Machine Learning."
+        ]
+      },
+      {
+        "moduleNumber": 2,
+        "title": "Supervised Learning",
+        "topics": [
+          "Hypothesis testing, Training versus Testing.",
+          "Gradient Descent, Overfitting & Regularization.",
+          "Regression fundamentals, Linear Regression, Polynomial regression.",
+          "Classification fundamentals, Logistic Regression, Decision trees."
+        ]
+      },
+      {
+        "moduleNumber": 3,
+        "title": "Unsupervised Learning",
+        "topics": [
+          "Clustering basics: K-means clustering, K-Nearest Neighbor.",
+          "Association Rule Learning, Hierarchical Clustering."
+        ]
+      },
+      {
+        "moduleNumber": 4,
+        "title": "Reinforcement Learning",
+        "topics": ["Markov Decision Processes, Monte Carlo Prediction."]
+      },
+      {
+        "moduleNumber": 5,
+        "title": "Applications of Machine Learning",
+        "topics": [
+          "Machine Learning Applications across Industries: Healthcare, Retail, Financial Services, Hospitality."
+        ]
+      }
+    ],
+    "selfStudyTopics": [
+      "Exploring tools used in ML, TensorFlow, Keras, Scikit-learn."
+    ]
+  },
+  {
+    "subjectCode": "MC520",
+    "subjectName": "DevOps",
+    "courseObjectives": [
+      "This course is designed to provide the core knowledge necessary to understand DevOps concepts, its principles and practices and tools."
+    ],
+    "courseOutcomes": [
+      "MC520.1 To understand basic concepts of DevOps.",
+      "MC520.2 Install, configure & use container technologies.",
+      "MC520.3 Apply testing tools for software, quality code & security testing.",
+      "MC520.4 Deploy and continuous monitoring of systems."
+    ],
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Overview of DevOps",
+        "topics": [
+          "Introduction to DevOps: Define the concept of DevOps, explain its origins, and describe its benefits and challenges.",
+          "DevOps Delivery Pipeline, DevOps Ecosystem."
+        ]
+      },
+      {
+        "moduleNumber": 2,
+        "title": "Git, Jenkins, Ansible Integration",
+        "topics": [
+          "Branching and Merging in Git, Git workflows.",
+          "Continuous Integration using Jenkins."
+        ]
+      },
+      {
+        "moduleNumber": 3,
+        "title": "Containerization with Docker",
+        "topics": [
+          "Understanding images and containers, Running Hello World in Docker.",
+          "Container Life Cycle."
+        ]
+      },
+      {
+        "moduleNumber": 4,
+        "title": "Containerization using Kubernetes",
+        "topics": [
+          "Cluster Architecture, Spinning up a Kubernetes Cluster on Ubuntu VMs.",
+          "Deploying an App using Dashboard."
+        ]
+      },
+      {
+        "moduleNumber": 5,
+        "title": "Functional Testing and Continuous Monitoring",
+        "topics": ["Security Testing, Continuous Monitoring with Nagios."]
+      }
+    ],
+    "selfStudyTopics": ["Microservices, automated deployments using Terraform."]
+  },
+  {
+    "subjectCode": "MC522",
+    "subjectName": "React",
+    "courseObjectives": [
+      "To provide students with a comprehensive understanding of React and its ecosystem."
+    ],
+    "courseOutcomes": [
+      "MC522.1 Understand the fundamentals of React.",
+      "MC522.2 Create and manage components in React.",
+      "MC522.3 Handle state and lifecycle methods in React.",
+      "MC522.4 Implement routing and navigation in React applications."
+    ],
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Introduction to React",
+        "topics": [
+          "What is React?",
+          "Why React?",
+          "React vs Angular vs Vue",
+          "React Ecosystem"
+        ]
+      },
+      {
+        "moduleNumber": 2,
+        "title": "React Components",
+        "topics": [
+          "Functional Components",
+          "Class Components",
+          "Component Lifecycle",
+          "Component Composition"
+        ]
+      },
+      {
+        "moduleNumber": 3,
+        "title": "State and Props",
+        "topics": [
+          "State Management",
+          "Props and Prop Validation",
+          "Default Props",
+          "Stateful Components"
+        ]
+      },
+      {
+        "moduleNumber": 4,
+        "title": "React Router",
+        "topics": [
+          "Introduction to React Router",
+          "Setting up React Router",
+          "Routing in React",
+          "Nested Routes"
+        ]
+      },
+      {
+        "moduleNumber": 5,
+        "title": "React Hooks",
+        "topics": [
+          "Introduction to React Hooks",
+          " useState Hook",
+          " useEffect Hook",
+          "Custom Hooks"
+        ]
+      }
+    ],
+    "selfStudyTopics": ["Redux, React Context API, React Testing Library"]
+  },
+  {
+    "subjectCode": "MC523",
+    "subjectName": "Deep Learning",
+    "courseObjectives": [
+      "To provide students with a comprehensive understanding of deep learning and its applications."
+    ],
+    "courseOutcomes": [
+      "MC523.1 Understand the fundamentals of deep learning.",
+      "MC523.2 Implement neural networks using TensorFlow and Keras.",
+      "MC523.3 Apply convolutional neural networks for image recognition.",
+      "MC523.4 Implement recurrent neural networks for sequence data."
+    ],
+    "modules": [
+      {
+        "moduleNumber": 1,
+        "title": "Introduction to Deep Learning",
+        "topics": [
+          "What is Deep Learning?",
+          "Why Deep Learning?",
+          "Deep Learning vs Machine Learning",
+          "Deep Learning Frameworks"
+        ]
+      },
+      {
+        "moduleNumber": 2,
+        "title": "Neural Networks",
+        "topics": [
+          "Perceptrons",
+          "Multi-Layer Perceptrons",
+          "Activation Functions",
+          "Backpropagation"
+        ]
+      },
+      {
+        "moduleNumber": 3,
+        "title": "Convolutional Neural Networks",
+        "topics": [
+          "Convolutional Layers",
+          "Pooling Layers",
+          "Image Recognition",
+          "Transfer Learning"
+        ]
+      },
+      {
+        "moduleNumber": 4,
+        "title": "Recurrent Neural Networks",
+        "topics": [
+          "Sequence Data",
+          "Long Short-Term Memory",
+          "Gated Recurrent Units",
+          "Sequence-to-Sequence Models"
+        ]
+      },
+      {
+        "moduleNumber": 5,
+        "title": "Deep Learning Applications",
+        "topics": [
+          "Natural Language Processing",
+          "Speech Recognition",
+          "Recommender Systems",
+          "Generative Models"
+        ]
+      }
+    ],
+    "selfStudyTopics": [
+      "Autoencoders, Generative Adversarial Networks, Reinforcement Learning"
+    ]
+  },
+  {
+    "subjectCode": "MC524",
+    "subjectName": "Data Visualization and Analytics",
+    "courseObjectives": [
+        "To provide students with the skills and knowledge to effectively visualize data and perform analytics."
+    ],
+    "courseOutcomes": [
+        "MC524.1 Understand the fundamentals of data visualization.",
+        "MC524.2 Apply various data visualization techniques.",
+        "MC524.3 Analyze data using statistical methods.",
+        "MC524.4 Create interactive dashboards using visualization tools."
+    ],
+    "modules": [
+        {
+            "moduleNumber": 1,
+            "title": "Introduction to Data Visualization",
+            "topics": [
+                "Importance of Data Visualization",
+                "Principles of Effective Visualization",
+                "Common Visualization Tools"
+            ]
+        },
+        {
+            "moduleNumber": 2,
+            "title": "Data Preparation and Analysis",
+            "topics": [
+                "Data Cleaning Techniques",
+                "Exploratory Data Analysis",
+                "Statistical Analysis Methods"
+            ]
+        },
+        {
+            "moduleNumber": 3,
+            "title": "Visualization Techniques",
+            "topics": [
+                "Charts and Graphs",
+                "Heat Maps and Geospatial Visualization",
+                "Network Graphs"
+            ]
+        },
+        {
+            "moduleNumber": 4,
+            "title": "Interactive Dashboards",
+            "topics": [
+                "Creating Dashboards with Tableau/Power BI",
+                "User  Interaction and Filters",
+                "Publishing and Sharing Dashboards"
+            ]
+        },
+        {
+            "moduleNumber": 5,
+            "title": "Advanced Analytics",
+            "topics": [
+                "Predictive Analytics",
+                "Machine Learning in Visualization",
+                "Case Studies of Data Visualization Applications"
+            ]
+        }
+    ],
+    "selfStudyTopics": [
+        "Exploring different visualization libraries in Python (e.g., Matplotlib, Seaborn)."
+    ]
+},
+{
+    "subjectCode": "MC514",
+    "subjectName": "Software Testing",
+    "courseObjectives": [
+        "To study the fundamental concepts of Software Testing."
+    ],
+    "courseOutcomes": [
+        "MC514.1 Apply various Software testing techniques and strategies to find bugs in software.",
+        "MC514.2 Design test cases suitable in testing.",
+        "MC514.3 Apply test management and automation in the testing environment.",
+        "MC514.4 Illustrate Agile Testing approach."
+    ],
+    "modules": [
+        {
+            "moduleNumber": 1,
+            "title": "Introduction to Software Testing",
+            "topics": [
+                "Evolution of Software Testing",
+                "Goals of Software Testing",
+                "Principles of Testing"
+            ]
+        },
+        {
+            "moduleNumber": 2,
+            "title": "Software Testing Methodology",
+            "topics": [
+                "Software Testing Life Cycle (STLC)",
+                "Verification and Validation",
+                "Types of Testing: Functional and Non-Functional"
+            ]
+        },
+        {
+            "moduleNumber": 3,
+            "title": "Dynamic Testing Techniques",
+            "topics": [
+                "Black-Box Testing Techniques",
+                "White-Box Testing Techniques",
+                "Static Testing"
+            ]
+        },
+        {
+            "moduleNumber": 4,
+            "title": "Test Management and Automation",
+            "topics": [
+                "Test Planning and Organization",
+                "Automation Testing Tools",
+                "Agile Testing Lifecycle"
+            ]
+        },
+        {
+            "moduleNumber": 5,
+            "title": "Advanced Testing Techniques",
+            "topics": [
+                "Performance Testing",
+                "Security Testing",
+                "Test Automation Frameworks"
+            ]
+        }
+    ],
+    "selfStudyTopics": [
+        "Exploring various testing tools like Selenium, JUnit, and TestNG."
+    ]
+},
+{
+    "subjectCode": "MC525",
+    "subjectName": "Spring Boot",
+    "courseObjectives": [
+        "To provide students with a comprehensive understanding of Spring Boot and its applications."
+    ],
+    "courseOutcomes": [
+        "MC525.1 Understand the fundamentals of Spring Framework.",
+        "MC525.2 Develop Spring Boot applications using RESTful services.",
+        "MC525.3 Implement database connectivity with Spring Boot.",
+        "MC525.4 Deploy Spring Boot applications."
+    ],
+    "modules": [
+        {
+            "moduleNumber": 1,
+            "title": "Introduction to Spring Boot",
+            "topics": [
+                "What is Spring Boot?",
+                "Advantages of Spring Boot",
+                "Setting up Spring Boot Environment"
+            ]
+        },
+        {
+            "moduleNumber": 2,
+            "title": "Building RESTful Services",
+            "topics": [
+                "Creating REST APIs with Spring Boot",
+                "Handling HTTP Requests",
+                "Error Handling in REST"
+            ]
+ },
+        {
+            "moduleNumber": 3,
+            "title": "Database Connectivity",
+            "topics": [
+                "Connecting to Databases with Spring Boot",
+                "Spring Data JPA",
+                "Spring Data MongoDB"
+            ]
+        },
+        {
+            "moduleNumber": 4,
+            "title": "Security and Authentication",
+            "topics": [
+                "Spring Security",
+                "Authentication and Authorization",
+                "Securing REST APIs"
+            ]
+        },
+        {
+            "moduleNumber": 5,
+            "title": "Deployment and Scaling",
+            "topics": [
+                "Deploying Spring Boot Applications",
+                "Scaling Spring Boot Applications",
+                "Monitoring and Logging"
+            ]
+        }
+    ],
+    "selfStudyTopics": [
+        "Exploring Spring Boot with Docker and Kubernetes."
+    ]
+}
 ]
-  

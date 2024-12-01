@@ -2,21 +2,6 @@
     {
         "subjectCode": "MA501",
         "subjectName": "Linear Algebra",
-        "credits": 3,
-        "category": "BSC",
-        "teachingScheme": {
-            "lecture": 2,
-            "tutorial": 1,
-            "practical": 0,
-            "other": 5,
-            "totalHours": 8
-        },
-        "examinationScheme": {
-            "ISE": 75,
-            "MSE": 75,
-            "ESE": 150,
-            "total": 300
-        },
         "courseObjectives": [
             "To develop mathematical skills for solving computer science problems."
         ],
@@ -114,26 +99,11 @@
                 ]
             }
         ],
-        "modification_suggestion": "Consider adding or expanding content on Linear Algebra (low similarity with syllabus)."
+        "modification_suggestion": "No matching topic found for this subject. Consider reviewing the syllabus content."
     },
     {
         "subjectCode": "MC501",
         "subjectName": "Data Structures",
-        "credits": 3,
-        "category": "PC",
-        "teachingScheme": {
-            "lecture": 2,
-            "tutorial": 0,
-            "practical": 2,
-            "other": 4,
-            "totalHours": 8
-        },
-        "examinationScheme": {
-            "ISE": 50,
-            "MSE": 50,
-            "ESE": 100,
-            "total": 200
-        },
         "courseObjectives": [
             "To learn fundamentals of Data Structures."
         ],
@@ -227,26 +197,113 @@
                 ]
             }
         ],
-        "modification_suggestion": "Topic 'Data Structures' sufficiently covers Data Structures."
+        "modification_suggestion": "Consider adding or expanding content on Data Structures (low similarity with syllabus). Missing keywords: understanding data profiling technique beneficial, understanding data quality data cleansing technique beneficial, understanding data virtualization technique beneficial, emphasis data privacy protection practice necessary, understanding basic data protection regulation essential, understanding data masking data anonymization technique beneficial, understanding data lineage data provenance beneficial, understanding data encryption technique beneficial."
+    },
+    {
+        "subjectCode": "MA502",
+        "subjectName": "Discrete Mathematics",
+        "courseObjectives": [
+            "To be familiar with a broad range of mathematical objects like sets, functions, relational graphs that is omnipresent in computer science."
+        ],
+        "courseOutcomes": [
+            "MA502.1 Construct simple mathematical proofs and verify them.",
+            "MA502.2 Apply core ideas of Set Theory, Logic, Relations Functions, and Recurrence Relations.",
+            "MA502.3 Solve examples using graphs, trees and their various types with their traversing techniques."
+        ],
+        "modules": [
+            {
+                "moduleNumber": 1,
+                "title": "Set Theory and Logic",
+                "topics": [
+                    "Finite and infinite set",
+                    "Union, Intersection, Disjoint, and Difference of two sets",
+                    "Power Set, Partition of Sets",
+                    "Ordered Sets",
+                    "De Morgan\u00e2\u20ac\u2122s Laws",
+                    "Principle of Inclusion Exclusion",
+                    "Propositional Logic",
+                    "Propositional Equivalences",
+                    "Predicates and Quantifiers",
+                    "Nested Quantifiers",
+                    "Methods of Proof",
+                    "Mathematical Induction",
+                    "Relations and Diagraphs - Properties of Relations"
+                ],
+                "reference": [
+                    1,
+                    2,
+                    4
+                ],
+                "hours": 6
+            },
+            {
+                "moduleNumber": 2,
+                "title": "Relational Structures on Sets: Relations & Graphs",
+                "topics": [
+                    "Relations, Equivalence Relations",
+                    "Functions, Bijections",
+                    "Binary relations and Graph",
+                    "Trees (Basics)",
+                    "Posets and Lattices",
+                    "Hasse Diagrams",
+                    "Boolean Algebra"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 8
+            },
+            {
+                "moduleNumber": 3,
+                "title": "Sizes of Sets: Counting & Combinatorics",
+                "topics": [
+                    "Counting, Sum and product rule",
+                    "Principle of Inclusion Exclusion",
+                    "Double Counting",
+                    "Pigeon Hole Principle",
+                    "Counting by Bijections",
+                    "Linear Recurrence relations - methods of solutions",
+                    "Generating Functions",
+                    "Permutations and counting"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 8
+            },
+            {
+                "moduleNumber": 4,
+                "title": "Structured Sets: Algebraic Structures",
+                "topics": [
+                    "Structured sets with respect to binary operations",
+                    "Groups, Semigroups, Monoids, Rings, and Fields",
+                    "Vector Spaces, Basis"
+                ],
+                "reference": [
+                    1,
+                    2,
+                    3
+                ],
+                "hours": 6
+            },
+            {
+                "moduleNumber": 5,
+                "title": "Self-Study Topics",
+                "topics": [
+                    "Coding Theory",
+                    "Isomorphic Lattices",
+                    "Regular Grammar",
+                    "Finite Automata"
+                ]
+            }
+        ],
+        "modification_suggestion": "No matching topic found for this subject. Consider reviewing the syllabus content."
     },
     {
         "subjectCode": "MC502",
         "subjectName": "Database Management System",
-        "credits": 4,
-        "category": "PC",
-        "teachingScheme": {
-            "lecture": 3,
-            "tutorial": 0,
-            "practical": 2,
-            "other": 5,
-            "totalHours": 10
-        },
-        "examinationScheme": {
-            "ISE": 75,
-            "MSE": 75,
-            "ESE": 150,
-            "total": 300
-        },
         "courseObjectives": [
             "To learn the fundamentals of database systems."
         ],
@@ -348,20 +405,11 @@
                 ]
             }
         ],
-        "modification_suggestion": "Topic 'Database Management System' sufficiently covers Database Management System."
+        "modification_suggestion": "Consider adding or expanding content on Database Management System (low similarity with syllabus). Missing keywords: experience data integration tool like ssis datastage plus, knowledge data governance framework essential, knowledge data cataloging metadata management essential, knowledge data quality framework essential, understanding big data technology like hadoop spark essential, emphasis data governance quality necessary, experience data integration tool like informatica talend plus, knowledge data privacy security regulation crucial, proficiency sql nosql database must, experience data streaming platform like apache kafka plus, experience data warehousing etl process plus, experience data mining technique plus, knowledge data privacy security framework essential, knowledge programming language like sql database management essential, practice implementing data structure programming language highly recommended, knowledge data analytics platform like apache hadoop spark valuable, understanding basic data governance stewardship increasingly important, experience data orchestration tool plus, knowledge data analytics tool technique highly valued, practical knowledge cloud computing aws azure highly desired, experience data integration tool plus, familiarity big data technology like hadoop spark plus, experience data mining technique valuable, experience data modeling tool like erwin plus, knowledge data modeling technique essential, experience data governance practice valuable, knowledge development framework plus, stronger focus database management system like sql nosql needed."
     },
     {
         "subjectCode": "MC503",
         "subjectName": "Software Engineering",
-        "credits": 4,
-        "category": "PC",
-        "teachingScheme": {
-            "lecture": 3,
-            "tutorial": 0,
-            "practical": 2,
-            "other": 5,
-            "totalHours": 10
-        },
         "examinationScheme": {
             "ISE": 75,
             "MSE": 75,
@@ -478,26 +526,12 @@
                 ]
             }
         ],
-        "modification_suggestion": "No matching topic found for this subject. Consider reviewing the syllabus content."
+        "modification_suggestion": "Consider adding or expanding content on Software Engineering (low similarity with syllabus). Missing keywords: student gain experience application development, student need enhance skill cloud infrastructure service, student need improve skill developing strategic partnership, student focus developing strong debugging troubleshooting skill, student need develop skill mobile development, student need improve skill service management delivery, student develop skill use analytics customer satisfaction measurement, student need develop skill web development framework like ruby rail, student need develop skill using collaboration tool remote work, student develop skill content management system cm, student need develop skill use analytics competitive analysis, student develop skill business intelligence data warehousing, student develop skill use analytics performance optimization, student need enhance skill use online reputation management tool, student need enhance skill use analytics customer insight, student need improve skill market research analysis, student need improve skill mobile game development, student need improve skill business process improvement, student need develop skill use data analytics business, student need improve skill conducting swot analysis, student need develop skill automated testing framework, student need develop skill development web architecture, student need develop skill use social medium analytics tool, student need develop skill using social medium analytics business, student need develop skill using digital tool collaboration, student need improve skill project management coordination, student need develop skill software development php laravel, student need improve skill financial analysis reporting, student need enhance skill cloud architecture migration, student need improve skill project management methodology, student develop skill data science social good, student focus developing soft skill alongside technical skill, student need enhance skill financial risk assessment, student need enhance skill cloud cost management optimization, student develop skill natural language processing nlp text analysis, student need develop skill software development c, student develop skill data engineering architecture, student need develop skill effective time management, student need improve skill service management customer support, student develop skill using crm system sale management, student develop skill use data analytics platform, student need enhance skill cloud security risk management, student develop skill using financial dashboard performance tracking, student need develop skill effective leadership team management, student need enhance skill managing remote team, student enhance skill monitoring logging tool ensure application reliability, student need enhance skill stakeholder engagement, student need enhance skill use online tool market analysis, student develop skill use project management methodology, student enhance skill data manipulation transformation, student need develop skill service desk management support, student develop skill customer relationship management crm software, student need enhance skill developing business case, student need improve skill, student need develop skill using analytics performance improvement, student need enhance skill application development, student trained use performance management system, student develop skill using data strategic, student need develop skill software development kotlin android, student need improve skill data analysis interpretation, student need improve skill stakeholder management engagement, student develop skill use analytics customer segmentation, student develop skill using project management tool like jira, student gain better proficiency software testing debugging practice, student need develop skill use analytics market trend analysis, student need develop skill software development go microservices, student develop skill using financial planning software, student need enhance skill cloud security compliance, student need develop skill design principle, student trained use financial risk management tool, student need improve skill service desk management support, student need develop skill use analytics performance measurement, student trained use customer relationship management tool, student need develop skill use social medium management tool, student need enhance skill digital content creation management, student need develop skill software development java spring, student develop skill use analytics customer retention, student develop skill data integration etl process, student need enhance skill cloud computing architecture, student need develop skill software development swift io, student develop skill use customer relationship management crm software, student develop skill use analytics customer journey mapping, student need improve skill strategic planning execution, student need improve research analytical writing skill, student develop skill use web analytics tool, student need improve skill service desk operation support, student develop skill using financial modeling software, student develop stronger analytical skill data interpretation, student need enhance skill use online collaboration platform, student need improve skill service delivery operation, student need improve skill service management framework, student need develop skill using project tracking software, student develop skill ethical hacking penetration testing, student need enhance skill use online tool customer experience, student need enhance skill use project management software, student need improve skill technical writing documentation, student need enhance skill use customer feedback tool, student need improve skill analyzing financial statement, student must enhance skill software testing methodology, student develop skill use data analysis social impact, student experience developing scalable application, student need enhance skill use data storytelling technique, student develop skill use analytics market analysis, student trained use business intelligence tool, student need improve skill customer experience management, student need improve skill mobile application development, student develop skill use analytics market segmentation, student need develop skill use business intelligence tool, student need develop skill software development rust system programming, student need enhance skill use collaboration tool, student need develop skill use online survey tool, student develop skill using excel advanced data analysis, student need improve skill customer relationship management crm system, student need enhance skill financial statement analysis, student develop skill using data analytics business insight, student need develop skill use analytics campaign performance, student develop skill predictive analytics forecasting, student need develop skill use data mining technique, student develop skill use analytics customer behavior analysis, student trained use business process modeling technique."
     },
     {
         "subjectCode": "MC504",
         "subjectName": "Web Technology Lab",
         "credits": 2,
-        "category": "SBC",
-        "teachingScheme": {
-            "lecture": 0,
-            "tutorial": 0,
-            "practical": 4,
-            "other": 4,
-            "totalHours": 8
-        },
-        "examinationScheme": {
-            "ISE": 100,
-            "MSE": 0,
-            "ESE": 100,
-            "total": 200
-        },
         "courseObjectives": [
             "To introduce the web technology concepts that are required for developing web applications."
         ],
@@ -569,26 +603,11 @@
                 ]
             }
         ],
-        "modification_suggestion": "No matching topic found for this subject. Consider reviewing the syllabus content."
+        "modification_suggestion": "Consider adding or expanding content on Web Technology Lab (low similarity with syllabus). Missing keywords: emphasis importance networking career development necessary, student familiar principle human resource management, student familiar basic design, student understand importance maintaining balance, improving networking skill help student build valuable connection field, encouraging participation coding challenge help student apply data structure concept real scenario, student learn data privacy law regulation, student encouraged participate coding competition, student need enhance understanding various testing type including unit integration system testing, curriculum lack focus artificial intelligence deep learning technique, student need work ability write clean maintainable code adhere coding standard, student improve understanding basic statistic probability, student need enhance networking skill, student need stronger skill especially coding challenge, student experience restful apis, student encouraged participate hackathons improve coding skill, student enhance understanding ethical implication ai, student familiar basic computer network protocol, student need enhance ability communicate effectively virtual environment, student familiar design principle, student familiar basic investment analysis, student need enhance adaptability communicate effectively changing environment, student familiar basic corporate finance, student trained digital signal processing analysis, student good understanding microservices architecture, student familiar principle digital content strategy, lack understanding data structure algorithm among student, programming language like python java mastered student, developing networking skill essential building professional relationship, student focus learning containerization technology like docker streamline application deployment, student focus enhancing networking skill, student learn implication artificial intelligence society, student trained fundamental cybersecurity awareness, student familiar principle design, student need improve adaptability new technology, student foundational understanding blockchain technology, student familiar api documentation usage, student work ability articulate technical concept simple term audience, student familiar basic quantum computing, student need enhance understanding programming principle, student familiar basic data ethic privacy, student need develop ability synthesize information present clearly, student familiar principle responsive web design, student familiar principle digital storytelling, emphasis networking skill career advancement necessary, student familiar principle competitive analysis, student good understanding financial modeling concept, student focus mastering advanced data structure graph hash table enhance coding skill, student learn recognize address communication barrier group setting, student familiar basic machine ethic, student familiar basic computer network distributed system, student learn internet thing iot implication, student trained user experience ux design principle, student familiar basic machine learning algorithm, student familiar basic computer vision image processing, student familiar principle employee engagement, student encouraged engage lifelong learning, student familiar principle operational efficiency, student familiar principle digital user engagement, student familiar principle digital content distribution, student familiar principle search engine optimization seo."
     },
     {
         "subjectCode": "AS501",
         "subjectName": "Writing Skills",
-        "credits": 2,
-        "category": "SBC",
-        "teachingScheme": {
-            "lecture": 1,
-            "tutorial": 0,
-            "practical": 2,
-            "other": 2,
-            "totalHours": 5
-        },
-        "examinationScheme": {
-            "ISE": 100,
-            "MSE": 0,
-            "ESE": 0,
-            "total": 100
-        },
         "courseObjectives": [
             "To apply the principles of business writing for professional documents.",
             "To develop vocabulary and grammar for professional communication.",
@@ -644,6 +663,1374 @@
                     "Reading a book (fiction/non-fiction) and writing a review of it"
                 ]
             }
+        ],
+        "modification_suggestion": "Consider adding or expanding content on Writing Skills (low similarity with syllabus). Missing keywords: student encouraged develop leadership skill, student encouraged develop ability think critically, student encouraged develop ability think creatively, student focus developing critical thinking skill enhance contribution discussion, critical thinking analytical reasoning need improvement student performance, student focus developing ability think creatively, focus critical thinking skill needed, student need enhance skill critical thinking, student encouraged develop ability think strategically."
+    },
+    {
+        "subjectCode": "MC505",
+        "subjectName": "Problem Solving Using Object Oriented Programming Lab",
+        "courseObjectives": [
+            "To develop programming skills of students, using object oriented programming concepts, learn the concept of class and object using C++ and develop classes for simple applications."
+        ],
+        "courseOutcomes": [
+            "MC505.1 Construct programs using basic control structures.",
+            "MC505.2 Apply objects and structures in problem solving.",
+            "MC505.3 Apply arrays and pointers efficiently to solve the problems.",
+            "MC505.4 Design the solutions using inheritance and polymorphism.",
+            "MC505.5 Apply concepts of virtual functions, exception handling to create efficient solutions.",
+            "MC505.6 Construct the solutions using File handling and Standard Template Library."
+        ],
+        "modules": [
+            {
+                "moduleNumber": 1,
+                "title": "Introduction",
+                "topics": [
+                    "Problem Solving Methodology and Techniques",
+                    "Introduction to Object-Oriented Programming",
+                    "Basic Elements of C++",
+                    "Control Structures"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 3
+            },
+            {
+                "moduleNumber": 2,
+                "title": "Objects and Classes",
+                "topics": [
+                    "A Simple Class",
+                    "Classes and Objects",
+                    "Defining the Class",
+                    "Physical C++ Objects as Data Types",
+                    "Function Structure",
+                    "Objects As Function Arguments",
+                    "Returning Objects From Functions",
+                    "Passing Arguments To Functions",
+                    "Returning Values From Functions",
+                    "Reference Arguments",
+                    "Recursion",
+                    "Inline Functions",
+                    "Default Arguments",
+                    "Macros",
+                    "Friend Function",
+                    "Static Functions",
+                    "Constructors and Destructors",
+                    "Arrays as Class Member Data",
+                    "Arrays of Object",
+                    "String",
+                    "The Standard C++ String Class",
+                    "Addresses and Pointers",
+                    "Memory Management: New and Delete",
+                    "Pointers to Objects",
+                    "This Pointer",
+                    "Pointer to Functions"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 8
+            },
+            {
+                "moduleNumber": 3,
+                "title": "OOP Concepts",
+                "topics": [
+                    "Overloading Overloaded Functions",
+                    "Overloading Unary Operations",
+                    "Overloading Binary Operators",
+                    "Data Conversion",
+                    "Pitfalls of Operators Overloading and Conversion Keywords",
+                    "Inheritance: Concept of Inheritance",
+                    "Derived Class and Base Class",
+                    "Derived Class Constructors",
+                    "Member Function",
+                    "Class Hierarchies",
+                    "Public and Private Inheritance",
+                    "Aggregation: Classes within Classes",
+                    "Inheritance and Program Development",
+                    "Virtual Functions",
+                    "Normal Member Functions Accessed with Pointers",
+                    "Virtual Member Functions Accessed with Pointers",
+                    "Late Binding",
+                    "Abstract Classes and Pure Virtual Functions",
+                    "Virtual Destructors",
+                    "Virtual Base Classes",
+                    "Friend Functions",
+                    "Friend Classes",
+                    "Static Functions",
+                    "Accessing Static Functions",
+                    "Numbering the Objects"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 12
+            },
+            {
+                "moduleNumber": 4,
+                "title": "File Handling",
+                "topics": [
+                    "C++ Streams",
+                    "Unformatted / Formatted I/O Operations",
+                    "Managing Output with Manipulators",
+                    "Creating/Opening/Closing/Deleting Files",
+                    "File Pointers and their Manipulators",
+                    "Random Access to File",
+                    "Errors Handling During File Operations",
+                    "Command Line Arguments"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 5
+            },
+            {
+                "moduleNumber": 5,
+                "title": "Self-Study Topics",
+                "topics": [
+                    "STL (Standard Template Library)",
+                    "Introduction to STL",
+                    "Components of STL",
+                    "Containers",
+                    "Iterators and Function Objects"
+                ]
+            }
+        ],
+        "modification_suggestion": "No matching topic found for this subject. Consider reviewing the syllabus content."
+    },
+    {
+        "subjectCode": "MA503",
+        "subjectName": "Probability and Statistics",
+        "courseObjectives": [
+            "To give an exposure to the students about the basic concepts of Probability and Statistical methods and their application."
+        ],
+        "courseOutcomes": [
+            "MA503.1 Apply different statistical measures on various types of data.",
+            "MA503.2 Perform Hypothesis testing on the data given to validate the assumptions.",
+            "MA503.3 Illustrate basic probability axioms, rules and their applicability.",
+            "MA503.4 Apply probability distribution to solve given problems."
+        ],
+        "modules": [
+            {
+                "moduleNumber": 1,
+                "title": "Measures of Central Tendency & Measures of Dispersion",
+                "topics": [
+                    "Continuous Frequency Distribution",
+                    "Histogram",
+                    "Frequency Polygon",
+                    "Stem and Leaf Diagram",
+                    "Ogives",
+                    "Arithmetic Mean",
+                    "Geometric Mean",
+                    "Harmonic Mean",
+                    "Median",
+                    "Range",
+                    "Quartile Deviation",
+                    "Mean Deviation",
+                    "Box Whisker Plot",
+                    "Standard Deviation",
+                    "Coefficient of Variation"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 4
+            },
+            {
+                "moduleNumber": 2,
+                "title": "Skewness, Correlation & Regression",
+                "topics": [
+                    "Karl Pearson\u00e2\u20ac\u2122s Coefficient of Skewness",
+                    "Bowley\u00e2\u20ac\u2122s Coefficient of Skewness",
+                    "Scatter Diagram",
+                    "Correlation",
+                    "Karl Pearson\u00e2\u20ac\u2122s Coefficient of Correlation",
+                    "Spearman\u00e2\u20ac\u2122s Rank Correlation Coefficient",
+                    "Linear Regression and Estimation",
+                    "Coefficients of Regression"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 8
+            },
+            {
+                "moduleNumber": 3,
+                "title": "Testing of Hypothesis",
+                "topics": [
+                    "Hypothesis, Type I and Type II errors",
+                    "Tests of significance \u00e2\u20ac\u201c Student's t-test: Single Mean, Difference of Means",
+                    "F, Z, Paired t-test",
+                    "ANOVA",
+                    "Chi-Square Test: Test of Goodness of Fit, Independence Test"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 8
+            },
+            {
+                "moduleNumber": 4,
+                "title": "Introduction to Probability",
+                "topics": [
+                    "Random Experiment",
+                    "Sample Space",
+                    "Events",
+                    "Axiomatic Probability",
+                    "Algebra of Events",
+                    "Discrete, Continuous and Mixed Random Variables",
+                    "Probability Mass Function (PMF)",
+                    "Probability Density Function (PDF)",
+                    "Cumulative Distribution Function (CDF)"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 4
+            },
+            {
+                "moduleNumber": 5,
+                "title": "Conditional Probability",
+                "topics": [
+                    "Conditional Probability",
+                    "Multiplication Theorem of Probability",
+                    "Independent Events",
+                    "Baye\u00e2\u20ac\u2122s Theorem",
+                    "Special Theoretical Probability Distributions - Bernoulli, Binomial, Uniform, Normal, Exponential",
+                    "Cumulative Distribution Function",
+                    "Expectation and Variance"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 9
+            },
+            {
+                "moduleNumber": 6,
+                "title": "Random Variables and Mathematical Expectation",
+                "topics": [
+                    "Discrete Random Variable",
+                    "Continuous Random Variable",
+                    "Two-Dimensional Random Variable",
+                    "Joint Probability Distribution",
+                    "Stochastic Independence",
+                    "Properties of Expectation",
+                    "Properties of Variance",
+                    "Covariance"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 9
+            },
+            {
+                "moduleNumber": 7,
+                "title": "Self-Study Topics",
+                "topics": [
+                    "Applied Probability",
+                    "Stochastic Processes",
+                    "Geometric Probability"
+                ]
+            }
+        ],
+        "modification_suggestion": "No matching topic found for this subject. Consider reviewing the syllabus content."
+    },
+    {
+        "subjectCode": "MC506",
+        "subjectName": "Java Programming",
+        "courseObjectives": [
+            "To build programming concepts using object-oriented constructs.",
+            "To analyze real-world problems for database connection and file handling using exception handling.",
+            "To develop web applications using JSP and Servlets.",
+            "To explain the concept of Spring and Hibernate in advanced Java programming."
+        ],
+        "courseOutcomes": [
+            "MC506.1 Build programming concept using OO constructs.",
+            "MC506.2 Analyze real world problem for database connection and file handling using Exception handling.",
+            "MC506.3 Develop Web Applications using JSP and Servlets.",
+            "MC506.4 Explain concept of Spring and Hibernate in advanced Java programming."
+        ],
+        "modules": [
+            {
+                "moduleNumber": 1,
+                "title": "Introduction to Java",
+                "topics": [
+                    "Java Basics: Data Types, Variables, and Operators",
+                    "Control Statements: Conditional Statements and Loops",
+                    "Arrays and Strings",
+                    "Methods and Method Overloading"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 6
+            },
+            {
+                "moduleNumber": 2,
+                "title": "Object-Oriented Programming in Java",
+                "topics": [
+                    "Classes and Objects",
+                    "Constructors",
+                    "Inheritance and Its Types",
+                    "Polymorphism: Method Overriding and Overloading",
+                    "Abstract Classes and Interfaces"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 8
+            },
+            {
+                "moduleNumber": 3,
+                "title": "Exception Handling and File Handling",
+                "topics": [
+                    "Exception Handling: Try, Catch, Finally, Throw, Throws",
+                    "Creating User-Defined Exceptions",
+                    "File Handling: File Class, FileReader, FileWriter",
+                    "Serialization and Deserialization"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 8
+            },
+            {
+                "moduleNumber": 4,
+                "title": "Java Database Connectivity (JDBC)",
+                "topics": [
+                    "JDBC Overview and Architecture",
+                    "Types of JDBC Drivers",
+                    "Establishing Connectivity with Database",
+                    "Executing SQL Statements"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 6
+            },
+            {
+                "moduleNumber": 5,
+                "title": "Web Development with Java",
+                "topics": [
+                    "Introduction to Servlets",
+                    "Servlet Life Cycle",
+                    "Handling HTTP Requests and Responses",
+                    "JavaServer Pages (JSP) Basics"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 8
+            },
+            {
+                "moduleNumber": 6,
+                "title": "Advanced Java Concepts",
+                "topics": [
+                    "Introduction to Spring Framework",
+                    "Spring MVC Architecture",
+                    "Hibernate Basics",
+                    "CRUD Operations using Hibernate"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 6
+            },
+            {
+                "moduleNumber": 7,
+                "title": "Self-Study Topics",
+                "topics": [
+                    "Java Collections Framework",
+                    "Multithreading in Java",
+                    "Java 8 Features: Lambda Expressions and Streams"
+                ]
+            }
+        ],
+        "modification_suggestion": "No matching topic found for this subject. Consider reviewing the syllabus content."
+    },
+    {
+        "subjectCode": "MC507",
+        "subjectName": "Design and Analysis of Algorithms",
+        "courseObjectives": [
+            "To analyze time and space complexity of different algorithms.",
+            "To analyze various divide & conquer algorithms.",
+            "To apply greedy and dynamic methods to given problems.",
+            "To utilize backtracking, branch and bound techniques, and graphs to solve problems."
+        ],
+        "courseOutcomes": [
+            "MC507.1 Analyze time and space complexity of different algorithms.",
+            "MC507.2 Analyze various divide & conquer algorithms.",
+            "MC507.3 Apply greedy and dynamic method to given problem.",
+            "MC507.4 Make use of backtracking, branch and bound techniques, and graphs to solve a problem."
+        ],
+        "modules": [
+            {
+                "moduleNumber": 1,
+                "title": "Fundamentals of Algorithmic Problem Solving",
+                "topics": [
+                    "The Role of Algorithms in Computing",
+                    "Growth of Functions",
+                    "The Substitution Method",
+                    "Master Method",
+                    "Recursion Tree Method",
+                    "Time Complexity: Worst Case, Best Case, Average Case Analysis",
+                    "Space Complexity",
+                    "Asymptotic Notations: Big O, Omega, Theta"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 4
+            },
+            {
+                "moduleNumber": 2,
+                "title": "Analysis of Various Algorithms and Divide and Conquer",
+                "topics": [
+                    "Binary Search Analysis",
+                    "Merge Sort Analysis",
+                    "Quick Sort Analysis",
+                    "Matrix Multiplication",
+                    "Internal Sorting Techniques",
+                    "External Sorting Techniques",
+                    "Complexity Calculation of Sorting Techniques using Asymptotic Notation"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 4
+            },
+            {
+                "moduleNumber": 3,
+                "title": "Greedy Method & Dynamic Programming",
+                "topics": [
+                    "Introduction to Greedy Method",
+                    "Knapsack Problem",
+                    "Minimum Cost Spanning Tree: Kruskal and Prim's Algorithm",
+                    "Introduction to Dynamic Programming",
+                    "0/1 Knapsack Problem",
+                    "Matrix Chain Multiplication",
+                    "Longest Common Subsequence",
+                    "Optimal Binary Search Tree"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 6
+            },
+            {
+                "moduleNumber": 4,
+                "title": "Backtracking",
+                "topics": [
+                    "Introduction to Backtracking Method",
+                    "8 Queens Problem",
+                    "Graph Coloring",
+                    "Hamiltonian Cycles",
+                    "The Subset Sum Problem"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 5
+            },
+            {
+                "moduleNumber": 5,
+                "title": "Branch and Bound",
+                "topics": [
+                    "Introduction to Branch and Bound Technique",
+                    "Bounding and FIFO Branch and Bound",
+                    "Least Cost Search Branch and Bound",
+                    "15-Puzzle Problem",
+                    "Travelling Salesman Problem"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 4
+            },
+            {
+                "moduleNumber": 6,
+                "title": "Graph Algorithms",
+                "topics": [
+                    "Single Source Shortest Path: Dijkstra's Algorithm",
+                    "Bellman-Ford Algorithm",
+                    "All Pair Shortest Path: Floyd-Warshall Algorithm",
+                    "Johnson's Algorithm",
+                    "Max Flow Algorithm: Ford-Fulkerson Method",
+                    "Maximum Bipartite Matching",
+                    "Push-Relabel Algorithm"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 5
+            },
+            {
+                "moduleNumber": 7,
+                "title": "Self-Study Topics",
+                "topics": [
+                    "String Matching Algorithm: Brute Force String Matching",
+                    "String Matching with Finite Automata",
+                    "Rabin-Karp String Matching",
+                    "Approximation Algorithm: P and NP Complete Problem",
+                    "P and NP Hard Problem"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 4
+            }
+        ],
+        "modification_suggestion": "No matching topic found for this subject. Consider reviewing the syllabus content."
+    },
+    {
+        "subjectCode": "MC508",
+        "subjectName": "Process Automation",
+        "courseObjectives": [
+            "To give students exposure about process automation, its working, importance and security related to it."
+        ],
+        "courseOutcomes": [
+            "MC508.1 Explain the basics of Process Automation.",
+            "MC508.2 Analyze the methodologies and techniques used in Process Automation.",
+            "MC508.3 Develop the BOTs using Process Automation.",
+            "MC508.4 Explain different intelligent Process Automation techniques.",
+            "MC508.5 Analyze the securities required for Process Automation."
+        ],
+        "modules": [
+            {
+                "moduleNumber": 1,
+                "title": "Robotics Process Automation: Foundations and Skills",
+                "topics": [
+                    "Introduction to RPA",
+                    "Different types of RPA Approaches",
+                    "History of RPA",
+                    "Benefits and Limitations of RPA",
+                    "Terms and concepts used in RPA",
+                    "Levels of RPA"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 5
+            },
+            {
+                "moduleNumber": 2,
+                "title": "RPA Methodologies, Planning and Vendor Evaluation",
+                "topics": [
+                    "Introduction to Lean",
+                    "Introduction to Six Sigma",
+                    "Six Sigma roles and levels",
+                    "Lean Six Sigma",
+                    "Finding the right balance and applying lean and six sigma to RPA",
+                    "ROI for RPA"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 5
+            },
+            {
+                "moduleNumber": 3,
+                "title": "Developing BOTs using RPA",
+                "topics": [
+                    "Analysis of Business Process and development of BOT",
+                    "Activities, Flowcharts and sequences",
+                    "Log Message, loops and conditions",
+                    "Best practices for BOT Development",
+                    "Evaluating BOT Performance",
+                    "Testing and Monitoring"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 6
+            },
+            {
+                "moduleNumber": 4,
+                "title": "Intelligent Automation",
+                "topics": [
+                    "Cognitive Automation",
+                    "Intelligent Process Automation or IPA",
+                    "Examples of cognitive RPA",
+                    "Web Scraping"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 6
+            },
+            {
+                "moduleNumber": 5,
+                "title": "Security of Process Automation",
+                "topics": [
+                    "Security Challenges for RPA",
+                    "Secured BOT Development and Deployment",
+                    "Secured BOT architecture design"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 6
+            },
+            {
+                "moduleNumber": 6,
+                "title": "Self-Study Topics",
+                "topics": [
+                    "RPA compared to BPA, BPM and BPO",
+                    "Key challenges in RPA",
+                    "RPA use cases and the planning",
+                    "RPA vendor evaluation",
+                    "Types of Data for RPA",
+                    "Data Process and Types of Algorithms",
+                    "Managing RPA Implementation Cycle",
+                    "Types of BOTs",
+                    "Examples of BOTs"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 4
+            }
+        ],
+        "modification_suggestion": "No matching topic found for this subject. Consider reviewing the syllabus content."
+    },
+    {
+        "subjectCode": "MC508",
+        "subjectName": "Process Automation",
+        "courseObjectives": [
+            "To give students exposure about process automation, its working, importance and security related to it."
+        ],
+        "courseOutcomes": [
+            "MC508.1 Explain the basics of Process Automation.",
+            "MC508.2 Analyze the methodologies and techniques used in Process Automation.",
+            "MC508.3 Develop the BOTs using Process Automation.",
+            "MC508.4 Explain different intelligent Process Automation techniques.",
+            "MC508.5 Analyze the securities required for Process Automation."
+        ],
+        "modules": [
+            {
+                "moduleNumber": 1,
+                "title": "Robotics Process Automation: Foundations and Skills",
+                "topics": [
+                    "Introduction to RPA",
+                    "Different types of RPA Approaches",
+                    "History of RPA",
+                    "Benefits and Limitations of RPA",
+                    "Terms and concepts used in RPA",
+                    "Levels of RPA"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 5
+            },
+            {
+                "moduleNumber": 2,
+                "title": "RPA Methodologies, Planning and Vendor Evaluation",
+                "topics": [
+                    "Introduction to Lean",
+                    "Introduction to Six Sigma",
+                    "Six Sigma roles and levels",
+                    "Lean Six Sigma",
+                    "Finding the right balance and applying lean and six sigma to RPA",
+                    "ROI for RPA"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 5
+            },
+            {
+                "moduleNumber": 3,
+                "title": "Developing BOTs using RPA",
+                "topics": [
+                    "Analysis of Business Process and development of BOT",
+                    "Activities, Flowcharts and sequences",
+                    "Log Message, loops and conditions",
+                    "Best practices for BOT Development",
+                    "Evaluating BOT Performance",
+                    "Testing and Monitoring"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 6
+            },
+            {
+                "moduleNumber": 4,
+                "title": "Intelligent Automation",
+                "topics": [
+                    "Cognitive Automation",
+                    "Intelligent Process Automation or IPA",
+                    "Examples of cognitive RPA",
+                    "Web Scraping"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 6
+            },
+            {
+                "moduleNumber": 5,
+                "title": "Security of Process Automation",
+                "topics": [
+                    "Security Challenges for RPA",
+                    "Secured BOT Development and Deployment",
+                    "Secured BOT architecture design"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 6
+            },
+            {
+                "moduleNumber": 6,
+                "title": "Self-Study Topics",
+                "topics": [
+                    "RPA compared to BPA, BPM and BPO",
+                    "Key challenges in RPA",
+                    "RPA use cases and the planning",
+                    "RPA vendor evaluation",
+                    "Types of Data for RPA",
+                    "Data Process and Types of Algorithms",
+                    "Managing RPA Implementation Cycle",
+                    "Types of BOTs",
+                    "Examples of BOTs"
+                ],
+                "reference": [
+                    1,
+                    2
+                ],
+                "hours": 4
+            }
+        ],
+        "modification_suggestion": "No matching topic found for this subject. Consider reviewing the syllabus content."
+    },
+    {
+        "subjectCode": "MC509",
+        "subjectName": "Mobile Programming Lab",
+        "courseObjectives": [
+            "To provide students with good knowledge and training about the Ionic framework along with databases using Firebase and Node."
+        ],
+        "courseOutcomes": [
+            "MC509.1 Install the Ionic framework with all the dependencies.",
+            "MC509.2 Create apps using the components of the Ionic framework and SASS stylesheet.",
+            "MC509.3 Create apps using APIs of the Ionic framework.",
+            "MC509.4 Create apps with backend connectivity."
+        ],
+        "modules": [
+            {
+                "moduleNumber": 1,
+                "title": "Installation and Basic Application",
+                "topics": [
+                    "To install Ionic and its development environment.",
+                    "Run the basic default application to understand the files used."
+                ]
+            },
+            {
+                "moduleNumber": 2,
+                "title": "Museum App Development",
+                "topics": [
+                    "Create a Museum app using basic UI components and SASS (Syntactically Awesome Style Sheets)."
+                ]
+            },
+            {
+                "moduleNumber": 3,
+                "title": "Department App with Tabs Navigation",
+                "topics": [
+                    "Create an app for the MCA department using Tabs Navigation."
+                ]
+            },
+            {
+                "moduleNumber": 4,
+                "title": "File Handling App",
+                "topics": [
+                    "Create an app to upload, download, and view PDF in an image."
+                ]
+            },
+            {
+                "moduleNumber": 5,
+                "title": "SPIT App Development",
+                "topics": [
+                    "Create SPIT app using side navigation drawer and Tabs navigation."
+                ]
+            },
+            {
+                "moduleNumber": 6,
+                "title": "Educational App for Children",
+                "topics": [
+                    "Create an app for children to study numbers and alphabets."
+                ]
+            },
+            {
+                "moduleNumber": 7,
+                "title": "Camera and Calendar API Integration",
+                "topics": [
+                    "Develop an app with Camera and Calendar API integrated in one app."
+                ]
+            },
+            {
+                "moduleNumber": 8,
+                "title": "HTTP Request and Response",
+                "topics": [
+                    "Implement HTTP request and response (REST API) to update and retrieve data in JSON file."
+                ]
+            },
+            {
+                "moduleNumber": 9,
+                "title": "Student Information App with Firebase",
+                "topics": [
+                    "Create an app to store student information using Firebase as database."
+                ]
+            },
+            {
+                "moduleNumber": 10,
+                "title": "Feedback App with Firebase",
+                "topics": [
+                    "Create an app for feedback of students along with the ratings and store and retrieve from Firebase."
+                ]
+            }
+        ],
+        "modification_suggestion": "No matching topic found for this subject. Consider reviewing the syllabus content."
+    },
+    {
+        "subjectCode": "AS502",
+        "subjectName": "Communication and Presentation Skills",
+        "courseObjectives": [
+            "To enhance students' communication abilities and presentation skills for professional settings."
+        ],
+        "courseOutcomes": [
+            "AS502.1 Demonstrate persuasive skills in interviews.",
+            "AS502.2 Demonstrate creative and critical thinking in Group Discussions.",
+            "AS502.3 Explain research, analysis, and presentation skills.",
+            "AS502.4 Apply data transformation skills."
+        ],
+        "modules": [
+            {
+                "moduleNumber": 1,
+                "title": "Persuasive Skills in Interviews",
+                "topics": [
+                    "Persuasion using facial expressions, gestures, body language.",
+                    "Persuasion using voice, verbal style, verbal content.",
+                    "Interview skills."
+                ]
+            },
+            {
+                "moduleNumber": 2,
+                "title": "Creative and Critical Thinking",
+                "topics": [
+                    "Different Perspectives to a situation.",
+                    "Group Discussion Skills.",
+                    "Picture-based group discussions."
+                ]
+            },
+            {
+                "moduleNumber": 3,
+                "title": "Research, Analysis, and Presentation Skills",
+                "topics": [
+                    "What is research? Types of research.",
+                    "Citation styles \u00e2\u20ac\u201c a glimpse.",
+                    "Basic Literature Review and Presentation."
+                ]
+            },
+            {
+                "moduleNumber": 4,
+                "title": "Data Transformation",
+                "topics": [
+                    "Graphics to Paragraphs and vice versa.",
+                    "Oral interpretation of graphics.",
+                    "Research Paper, News Analysis."
+                ]
+            }
+        ],
+        "selfStudyTopics": [
+            "Mock Interview practices.",
+            "Group Discussion techniques.",
+            "Effective Presentation strategies."
+        ],
+        "modification_suggestion": "Consider adding or expanding content on Communication and Presentation Skills (low similarity with syllabus). Missing keywords: student familiar principle digital marketing community building, student need enhance ability communicate personal brand effectively, student need develop skill use analytics brand performance evaluation, student develop skill digital entrepreneurship innovation strategy, student need improve skill digital marketing customer experience, student need improve skill conducting market survey, student develop skill digital business strategy market analysis, student need improve skill digital marketing customer retention, student need enhance presentation skill business setting, student familiar principle digital marketing brand awareness, student develop skill digital business analysis strategy, student trained fundamental data analysis brand performance metric, student familiar principle digital marketing brand awareness campaign, student need enhance skill strategic marketing, student develop skill digital entrepreneurship startup development, student develop skill digital product management development, student encouraged develop entrepreneurial skill, student need enhance skill use online tool customer engagement, student trained digital marketing strategy, student need improve skill brand management positioning, student develop skill use marketing automation tool, student need improve skill digital marketing customer advocacy, student need enhance skill use online tool brand storytelling, student familiar principle digital marketing brand loyalty program, student need improve skill digital marketing customer loyalty, student develop skill digital business entrepreneurship, student need develop skill use analytics brand storytelling, student trained fundamental data analysis brand strategy, student need improve skill digital product design development, student need develop skill use customer journey mapping, student need develop skill use analytics brand health tracking, student need improve skill influencer marketing strategy, student familiar principle digital marketing startup, student need enhance skill use online tool brand management, student familiar principle digital marketing content strategy, student need enhance skill use online marketing tool, student need enhance skill use social medium brand building, student need improve skill digital marketing customer experience design, student trained use market analysis framework, student gain experience social medium analytics strategy, student familiar principle digital marketing strategy, student familiar principle sale strategy development, student need improve skill digital marketing campaign management, student need improve skill digital marketing customer engagement optimization, student trained fundamental marketing, student need develop skill using social medium business purpose, student need enhance skill use online advertising platform, student familiar principle brand management, student familiar principle digital marketing lead generation, student familiar principle market positioning, student need enhance skill use email marketing tool, student need develop skill effective communication business context, student familiar principle market entry strategy, student need enhance skill developing marketing plan, student trained digital marketing analytics optimization, student familiar principle digital marketing brand positioning, student familiar principle digital marketing audience insight, student need enhance skill use online tool audience engagement, student develop skill digital business strategy innovation, student familiar principle digital marketing event promotion, student develop skill use data analysis marketing insight, student need develop skill use analytics brand performance."
+    },
+    {
+        "subjectCode": "MC511",
+        "subjectName": "Machine Learning",
+        "courseObjectives": [
+            "To introduce basic concepts and techniques of machine learning and develop skills of using recent machine learning software for solving practical problems."
+        ],
+        "courseOutcomes": [
+            "MC511.1 Explain basic concept and need of machine learning.",
+            "MC511.2 Apply machine learning algorithms to solve the given problem.",
+            "MC511.3 Explain various reinforcement learning techniques.",
+            "MC511.4 Apply Dimensionality reduction techniques.",
+            "MC511.5 Make use of basic concepts of Python/R to solve given problems."
+        ],
+        "modules": [
+            {
+                "moduleNumber": 1,
+                "title": "Introduction To Machine Learning",
+                "topics": [
+                    "Need of machine learning.",
+                    "Machine learning vs AI, machine learning vs Deep learning.",
+                    "Learning types: Supervised Learning, Unsupervised learning, Reinforcement learning.",
+                    "Applications of machine learning.",
+                    "General Steps or Process of Machine Learning."
+                ]
+            },
+            {
+                "moduleNumber": 2,
+                "title": "Supervised Learning",
+                "topics": [
+                    "Hypothesis testing, Training versus Testing.",
+                    "Gradient Descent, Overfitting & Regularization.",
+                    "Regression fundamentals, Linear Regression, Polynomial regression.",
+                    "Classification fundamentals, Logistic Regression, Decision trees."
+                ]
+            },
+            {
+                "moduleNumber": 3,
+                "title": "Unsupervised Learning",
+                "topics": [
+                    "Clustering basics: K-means clustering, K-Nearest Neighbor.",
+                    "Association Rule Learning, Hierarchical Clustering."
+                ]
+            },
+            {
+                "moduleNumber": 4,
+                "title": "Reinforcement Learning",
+                "topics": [
+                    "Markov Decision Processes, Monte Carlo Prediction."
+                ]
+            },
+            {
+                "moduleNumber": 5,
+                "title": "Applications of Machine Learning",
+                "topics": [
+                    "Machine Learning Applications across Industries: Healthcare, Retail, Financial Services, Hospitality."
+                ]
+            }
+        ],
+        "selfStudyTopics": [
+            "Exploring tools used in ML, TensorFlow, Keras, Scikit-learn."
+        ],
+        "modification_suggestion": "Consider adding or expanding content on Machine Learning (low similarity with syllabus). Missing keywords: knowledge ethical consideration technology increasingly important, understanding basic merger acquisition increasingly important, understanding user experience ux design principle beneficial, emphasis importance adaptability changing business environment necessary, understanding supply chain management logistics crucial, knowledge principle pricing strategy essential, understanding basic business model innovation increasingly important, understanding basic machine learning model evaluation crucial, emphasis financial modeling valuation technique necessary, knowledge risk management principle beneficial finance role, emphasis importance innovation business necessary, understanding robotics autonomous system increasingly important, knowledge machine learning library tensorflow pytorch beneficial, knowledge principle lean startup methodology beneficial, emphasis importance cultural competence global business necessary, knowledge principle product management essential, knowledge artificial intelligence machine learning tensorflow beneficial, focus principle effective crisis management needed, emphasis role data process necessary, understanding basic machine learning algorithm essential, understanding basic entrepreneurship startup development crucial, deeper comprehension algorithm complexity big notation essential effective, understanding basic financial statement preparation essential, deeper understanding machine learning concept application required, knowledge principle financial analysis beneficial, understanding database management system necessary, understanding artificial intelligence concept increasingly important, understanding artificial intelligence machine learning kera crucial, emphasis importance emotional intelligence leadership necessary, understanding basic business analytics tool increasingly important, greater emphasis statistical analysis data interpretation needed, focus principle change management needed, focus principle data privacy security business needed, emphasis importance adaptability workplace necessary, understanding principle user experience ux research crucial, knowledge principle operational risk management crucial, focus principle effective stakeholder communication needed, knowledge principle supply chain analytics essential, understanding basic financial planning analysis crucial, knowledge market trend economic indicator beneficial, understanding artificial intelligence machine learning pytorch crucial, knowledge accounting principle practice crucial, understanding basic data warehousing business intelligence essential, knowledge principle data analysis business essential, understanding basic cloud computing service increasingly important, understanding basic quantum algorithm increasingly important, understanding business intelligence concept beneficial, knowledge principle business ethic beneficial, focus principle design needed, focus artificial intelligence machine learning ethic needed, knowledge blockchain technology application essential, understanding fundamental business analytics essential, knowledge principle business negotiation beneficial, understanding basic international business practice crucial, solid understanding algorithm complexity required, knowledge simulation modeling technique beneficial, emphasis importance sustainability business practice necessary, understanding artificial intelligence machine learning openai tool crucial, knowledge principle supply chain optimization essential, knowledge basic data ethic ai application essential, knowledge principle corporate governance essential, emphasis sustainability green technology necessary, knowledge principle business law beneficial, knowledge principle business continuity planning beneficial, knowledge principle financial forecasting beneficial, understanding artificial intelligence machine learning reinforcement learning crucial, understanding artificial intelligence machine learning crucial, understanding global business environment cultural difference essential, knowledge software design principle design pattern crucial effective software architecture, knowledge principle business ethic compliance crucial, understanding principle strategic planning essential, understanding artificial intelligence machine learning fastai crucial, knowledge computer vision image processing technique essential, knowledge principle business strategy formulation crucial, understanding principle design crucial, understanding budgeting forecasting process essential, emphasis importance cultural awareness global business necessary, understanding basic corporate social responsibility essential, knowledge ethical consideration technology important, emphasis ethical business necessary, knowledge principle user interface ui design essential, understanding financial regulation compliance crucial, understanding database administration performance tuning crucial, understanding principle design thinking essential, focus implication artificial intelligence business needed, knowledge user interface ui design principle essential, understanding supply chain management principle increasingly important."
+    },
+    {
+        "subjectCode": "MC520",
+        "subjectName": "DevOps",
+        "courseObjectives": [
+            "This course is designed to provide the core knowledge necessary to understand DevOps concepts, its principles and practices and tools."
+        ],
+        "courseOutcomes": [
+            "MC520.1 To understand basic concepts of DevOps.",
+            "MC520.2 Install, configure & use container technologies.",
+            "MC520.3 Apply testing tools for software, quality code & security testing.",
+            "MC520.4 Deploy and continuous monitoring of systems."
+        ],
+        "modules": [
+            {
+                "moduleNumber": 1,
+                "title": "Overview of DevOps",
+                "topics": [
+                    "Introduction to DevOps: Define the concept of DevOps, explain its origins, and describe its benefits and challenges.",
+                    "DevOps Delivery Pipeline, DevOps Ecosystem."
+                ]
+            },
+            {
+                "moduleNumber": 2,
+                "title": "Git, Jenkins, Ansible Integration",
+                "topics": [
+                    "Branching and Merging in Git, Git workflows.",
+                    "Continuous Integration using Jenkins."
+                ]
+            },
+            {
+                "moduleNumber": 3,
+                "title": "Containerization with Docker",
+                "topics": [
+                    "Understanding images and containers, Running Hello World in Docker.",
+                    "Container Life Cycle."
+                ]
+            },
+            {
+                "moduleNumber": 4,
+                "title": "Containerization using Kubernetes",
+                "topics": [
+                    "Cluster Architecture, Spinning up a Kubernetes Cluster on Ubuntu VMs.",
+                    "Deploying an App using Dashboard."
+                ]
+            },
+            {
+                "moduleNumber": 5,
+                "title": "Functional Testing and Continuous Monitoring",
+                "topics": [
+                    "Security Testing, Continuous Monitoring with Nagios."
+                ]
+            }
+        ],
+        "selfStudyTopics": [
+            "Microservices, automated deployments using Terraform."
+        ],
+        "modification_suggestion": "Consider adding or expanding content on DevOps (low similarity with syllabus). Missing keywords: knowledge project management tool technique essential, understanding computer graphic game development increasingly important, student familiar version control system beyond git, knowledge automated testing framework tool essential efficient testing practice, understanding network protocol security measure crucial, understanding blockchain development smart contract crucial, familiarity agile project management tool like jira beneficial, familiarity cybersecurity practice encryption secure coding essential, knowledge devsecops security automation essential, emphasis importance mentorship career development necessary, experience devops tool like docker kubernetes would beneficial, experience scripting language like bash powershell desired, understanding software architecture design pattern crucial, focus cybersecurity threat risk management needed, knowledge software design pattern essential effective coding, knowledge ethical hacking practice increasingly important, focus principle agile project management needed, student familiar principle agile software development, experience react framework desired, experience machine learning model deployment recommended, improving ability work collaboratively team essential project success, knowledge project management agile framework essential, experience mobile application development framework plus, focus ethical hacking security protocol necessary, understanding basic development practice essential, emphasis software testing quality assurance necessary, emphasis principle user experience ux testing necessary, familiarity agile methodology practice highly recommended, emphasis leadership project management skill necessary, experience virtual reality vr augmented reality ar technology valuable, emphasis importance teamwork project success necessary, experience automated testing tool highly recommended, knowledge project management agile methodology essential, focus cybersecurity threat intelligence needed, familiarity version control system like git essential collaborative software development, student focus understanding importance continuous testing software development lifecycle, curriculum include case study business scenario, understanding infrastructure code iac principle essential managing cloud resource effectively, student familiar software development life cycle sdlc model, emphasis interaction user experience design necessary, understanding agile methodology working environment crucial, understanding cloud security practice crucial, emphasis teamwork collaboration project necessary, emphasis software development methodology like scrum kanban necessary, knowledge augmented reality ar virtual reality vr application essential, experience container orchestration tool recommended, student proficient using git version control collaboration, knowledge project management kanban essential, understanding basic project lifecycle management increasingly important, understanding digital forensics incident response essential, experience tool like jenkins gitlab ci highly recommended effective devops practice, student need experience kubernetes, solid grasp version control system like git essential, student trained crisis management contingency planning, understanding performance testing tool necessary, focus remote work tool collaboration platform needed, knowledge mobile security practice increasingly important, knowledge project management methodology essential, understanding digital accessibility inclusive design essential, student need strengthen understanding devops culture importance modern software development, knowledge project management risk assessment essential, knowledge project management scrum essential, practical experience framework like react angular demand, understanding backend technology like important, experience project cybersecurity would valuable, student improve understanding software development methodology including agile waterfall, understanding mobile app development framework increasingly important, emphasis importance mentorship professional growth necessary, student practice writing effective test case understanding development tdd, improving ability identify edge case potential failure point crucial thorough testing, student focus documenting code design decision better team collaboration, experience application would asset."
+    },
+    {
+        "subjectCode": "MC522",
+        "subjectName": "React",
+        "courseObjectives": [
+            "To provide students with a comprehensive understanding of React and its ecosystem."
+        ],
+        "courseOutcomes": [
+            "MC522.1 Understand the fundamentals of React.",
+            "MC522.2 Create and manage components in React.",
+            "MC522.3 Handle state and lifecycle methods in React.",
+            "MC522.4 Implement routing and navigation in React applications."
+        ],
+        "modules": [
+            {
+                "moduleNumber": 1,
+                "title": "Introduction to React",
+                "topics": [
+                    "What is React?",
+                    "Why React?",
+                    "React vs Angular vs Vue",
+                    "React Ecosystem"
+                ]
+            },
+            {
+                "moduleNumber": 2,
+                "title": "React Components",
+                "topics": [
+                    "Functional Components",
+                    "Class Components",
+                    "Component Lifecycle",
+                    "Component Composition"
+                ]
+            },
+            {
+                "moduleNumber": 3,
+                "title": "State and Props",
+                "topics": [
+                    "State Management",
+                    "Props and Prop Validation",
+                    "Default Props",
+                    "Stateful Components"
+                ]
+            },
+            {
+                "moduleNumber": 4,
+                "title": "React Router",
+                "topics": [
+                    "Introduction to React Router",
+                    "Setting up React Router",
+                    "Routing in React",
+                    "Nested Routes"
+                ]
+            },
+            {
+                "moduleNumber": 5,
+                "title": "React Hooks",
+                "topics": [
+                    "Introduction to React Hooks",
+                    " useState Hook",
+                    " useEffect Hook",
+                    "Custom Hooks"
+                ]
+            }
+        ],
+        "selfStudyTopics": [
+            "Redux, React Context API, React Testing Library"
+        ],
+        "modification_suggestion": "No matching topic found for this subject. Consider reviewing the syllabus content."
+    },
+    {
+        "subjectCode": "MC523",
+        "subjectName": "Deep Learning",
+        "courseObjectives": [
+            "To provide students with a comprehensive understanding of deep learning and its applications."
+        ],
+        "courseOutcomes": [
+            "MC523.1 Understand the fundamentals of deep learning.",
+            "MC523.2 Implement neural networks using TensorFlow and Keras.",
+            "MC523.3 Apply convolutional neural networks for image recognition.",
+            "MC523.4 Implement recurrent neural networks for sequence data."
+        ],
+        "modules": [
+            {
+                "moduleNumber": 1,
+                "title": "Introduction to Deep Learning",
+                "topics": [
+                    "What is Deep Learning?",
+                    "Why Deep Learning?",
+                    "Deep Learning vs Machine Learning",
+                    "Deep Learning Frameworks"
+                ]
+            },
+            {
+                "moduleNumber": 2,
+                "title": "Neural Networks",
+                "topics": [
+                    "Perceptrons",
+                    "Multi-Layer Perceptrons",
+                    "Activation Functions",
+                    "Backpropagation"
+                ]
+            },
+            {
+                "moduleNumber": 3,
+                "title": "Convolutional Neural Networks",
+                "topics": [
+                    "Convolutional Layers",
+                    "Pooling Layers",
+                    "Image Recognition",
+                    "Transfer Learning"
+                ]
+            },
+            {
+                "moduleNumber": 4,
+                "title": "Recurrent Neural Networks",
+                "topics": [
+                    "Sequence Data",
+                    "Long Short-Term Memory",
+                    "Gated Recurrent Units",
+                    "Sequence-to-Sequence Models"
+                ]
+            },
+            {
+                "moduleNumber": 5,
+                "title": "Deep Learning Applications",
+                "topics": [
+                    "Natural Language Processing",
+                    "Speech Recognition",
+                    "Recommender Systems",
+                    "Generative Models"
+                ]
+            }
+        ],
+        "selfStudyTopics": [
+            "Autoencoders, Generative Adversarial Networks, Reinforcement Learning"
+        ],
+        "modification_suggestion": "No matching topic found for this subject. Consider reviewing the syllabus content."
+    },
+    {
+        "subjectCode": "MC524",
+        "subjectName": "Data Visualization and Analytics",
+        "courseObjectives": [
+            "To provide students with the skills and knowledge to effectively visualize data and perform analytics."
+        ],
+        "courseOutcomes": [
+            "MC524.1 Understand the fundamentals of data visualization.",
+            "MC524.2 Apply various data visualization techniques.",
+            "MC524.3 Analyze data using statistical methods.",
+            "MC524.4 Create interactive dashboards using visualization tools."
+        ],
+        "modules": [
+            {
+                "moduleNumber": 1,
+                "title": "Introduction to Data Visualization",
+                "topics": [
+                    "Importance of Data Visualization",
+                    "Principles of Effective Visualization",
+                    "Common Visualization Tools"
+                ]
+            },
+            {
+                "moduleNumber": 2,
+                "title": "Data Preparation and Analysis",
+                "topics": [
+                    "Data Cleaning Techniques",
+                    "Exploratory Data Analysis",
+                    "Statistical Analysis Methods"
+                ]
+            },
+            {
+                "moduleNumber": 3,
+                "title": "Visualization Techniques",
+                "topics": [
+                    "Charts and Graphs",
+                    "Heat Maps and Geospatial Visualization",
+                    "Network Graphs"
+                ]
+            },
+            {
+                "moduleNumber": 4,
+                "title": "Interactive Dashboards",
+                "topics": [
+                    "Creating Dashboards with Tableau/Power BI",
+                    "User  Interaction and Filters",
+                    "Publishing and Sharing Dashboards"
+                ]
+            },
+            {
+                "moduleNumber": 5,
+                "title": "Advanced Analytics",
+                "topics": [
+                    "Predictive Analytics",
+                    "Machine Learning in Visualization",
+                    "Case Studies of Data Visualization Applications"
+                ]
+            }
+        ],
+        "selfStudyTopics": [
+            "Exploring different visualization libraries in Python (e.g., Matplotlib, Seaborn)."
+        ],
+        "modification_suggestion": "Consider adding or expanding content on Data Visualization and Analytics (low similarity with syllabus). Missing keywords: student need develop skill use data visualization business insight, student familiar basic data governance compliance, student trained fundamental data analysis python, student trained financial modeling analysis, student trained fundamental data ethic, student trained data science machine learning python, student trained fundamental data visualization marketing, student work ability analyze interpret data effectively, student trained fundamental data analysis product development, student need improve skill data storytelling visualization, knowledge data visualization tool like tableau crucial, knowledge data visualization tool like tableau power bi crucial, student trained data visualization storytelling power bi, student familiar basic data analytics visualization, student trained fundamental data analysis market research, student trained fundamental data analysis business, student trained use data visualization tool like power bi, student familiar basic data mining machine learning, student develop better skill data visualization tool like tableau, understanding data visualization best practice beneficial, student trained fundamental data visualization python, student trained fundamental data analysis customer loyalty program, student familiar basic data science statistical analysis, student trained use financial reporting tool, student trained fundamental machine learning operation mlops, student trained fundamental data analysis customer advocacy, student trained data science machine learning r, student develop skill use data visualization technique, student trained fundamental data analysis customer insight, student need strengthen understanding fundamental data structure like array linked list tree, student trained data science analytics sql, student develop skill use data visualization software, student trained use financial analysis software, student trained data visualization analytics, student trained fundamental data storytelling, understanding basic data visualization best practice crucial, student trained data science machine learning matlab, student trained fundamental data analysis audience insight, student trained fundamental data science r, student trained data analytics visualization tableau."
+    },
+    {
+        "subjectCode": "MC514",
+        "subjectName": "Software Testing",
+        "courseObjectives": [
+            "To study the fundamental concepts of Software Testing."
+        ],
+        "courseOutcomes": [
+            "MC514.1 Apply various Software testing techniques and strategies to find bugs in software.",
+            "MC514.2 Design test cases suitable in testing.",
+            "MC514.3 Apply test management and automation in the testing environment.",
+            "MC514.4 Illustrate Agile Testing approach."
+        ],
+        "modules": [
+            {
+                "moduleNumber": 1,
+                "title": "Introduction to Software Testing",
+                "topics": [
+                    "Evolution of Software Testing",
+                    "Goals of Software Testing",
+                    "Principles of Testing"
+                ]
+            },
+            {
+                "moduleNumber": 2,
+                "title": "Software Testing Methodology",
+                "topics": [
+                    "Software Testing Life Cycle (STLC)",
+                    "Verification and Validation",
+                    "Types of Testing: Functional and Non-Functional"
+                ]
+            },
+            {
+                "moduleNumber": 3,
+                "title": "Dynamic Testing Techniques",
+                "topics": [
+                    "Black-Box Testing Techniques",
+                    "White-Box Testing Techniques",
+                    "Static Testing"
+                ]
+            },
+            {
+                "moduleNumber": 4,
+                "title": "Test Management and Automation",
+                "topics": [
+                    "Test Planning and Organization",
+                    "Automation Testing Tools",
+                    "Agile Testing Lifecycle"
+                ]
+            },
+            {
+                "moduleNumber": 5,
+                "title": "Advanced Testing Techniques",
+                "topics": [
+                    "Performance Testing",
+                    "Security Testing",
+                    "Test Automation Frameworks"
+                ]
+            }
+        ],
+        "selfStudyTopics": [
+            "Exploring various testing tools like Selenium, JUnit, and TestNG."
+        ],
+        "modification_suggestion": "No matching topic found for this subject. Consider reviewing the syllabus content."
+    },
+    {
+        "subjectCode": "MC525",
+        "subjectName": "Spring Boot",
+        "courseObjectives": [
+            "To provide students with a comprehensive understanding of Spring Boot and its applications."
+        ],
+        "courseOutcomes": [
+            "MC525.1 Understand the fundamentals of Spring Framework.",
+            "MC525.2 Develop Spring Boot applications using RESTful services.",
+            "MC525.3 Implement database connectivity with Spring Boot.",
+            "MC525.4 Deploy Spring Boot applications."
+        ],
+        "modules": [
+            {
+                "moduleNumber": 1,
+                "title": "Introduction to Spring Boot",
+                "topics": [
+                    "What is Spring Boot?",
+                    "Advantages of Spring Boot",
+                    "Setting up Spring Boot Environment"
+                ]
+            },
+            {
+                "moduleNumber": 2,
+                "title": "Building RESTful Services",
+                "topics": [
+                    "Creating REST APIs with Spring Boot",
+                    "Handling HTTP Requests",
+                    "Error Handling in REST"
+                ]
+            },
+            {
+                "moduleNumber": 3,
+                "title": "Database Connectivity",
+                "topics": [
+                    "Connecting to Databases with Spring Boot",
+                    "Spring Data JPA",
+                    "Spring Data MongoDB"
+                ]
+            },
+            {
+                "moduleNumber": 4,
+                "title": "Security and Authentication",
+                "topics": [
+                    "Spring Security",
+                    "Authentication and Authorization",
+                    "Securing REST APIs"
+                ]
+            },
+            {
+                "moduleNumber": 5,
+                "title": "Deployment and Scaling",
+                "topics": [
+                    "Deploying Spring Boot Applications",
+                    "Scaling Spring Boot Applications",
+                    "Monitoring and Logging"
+                ]
+            }
+        ],
+        "selfStudyTopics": [
+            "Exploring Spring Boot with Docker and Kubernetes."
         ],
         "modification_suggestion": "No matching topic found for this subject. Consider reviewing the syllabus content."
     }
