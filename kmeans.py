@@ -22,7 +22,6 @@ class CustomEncoder(json.JSONEncoder):
             return str(obj)  # Handle non-serializable objects
 
 def download_nltk_dependencies():
-    """Download required NLTK packages with error handling."""
     required_packages = ["punkt", "stopwords", "wordnet"]
     for package in required_packages:
         try:
@@ -35,7 +34,6 @@ def download_nltk_dependencies():
 def preprocess_text(texts):
     lemmatizer = WordNetLemmatizer()
     stop_words = set(stopwords.words("english"))
-
     processed_texts = []
     for text in texts:
         tokens = word_tokenize(text.lower())
@@ -46,11 +44,10 @@ def preprocess_text(texts):
         ]
         processed_texts.append(" ".join(tokens))
 
-    # print("\nTokenized Preprocessed Text is ready")
     return processed_texts
 
 def check_embeddings(embeddings):
-    """Check for NaN values in embeddings and return valid embeddings."""
+    #Check for NaN values in embeddings and only return valid embeddings.
     if np.any(np.isnan(embeddings)):
         print("Found NaN values in embeddings. Cleaning up...")
         # Remove rows with NaN values
@@ -95,9 +92,11 @@ def plot_pca_results(X_reduced, labels):
     plt.title('PCA of Clusters')
     plt.xlabel('Principal Component 1')
     plt.ylabel('Principal Component 2')
-    plt.legend()
+    plt.legend(loc='upper left', bbox_to_anchor=(1.05, 1), borderaxespad=0.)
     plt.grid()
+    plt.tight_layout()
     plt.show()
+
 
 def plot_elbow_method(embeddings):
     try:
@@ -115,7 +114,7 @@ def plot_elbow_method(embeddings):
         plt.title("Elbow Method For Optimal k")
         plt.show()
 
-        # Find the "elbow" point
+        # Find the elbow point
         knee_locator = KneeLocator(K, distortions, curve="convex", direction="decreasing")
         optimal_k = knee_locator.knee
         print(f"Optimal number of clusters: {optimal_k}")
@@ -189,11 +188,9 @@ def suggest_syllabus_modifications(matches, threshold=0.3):
 def main():
     if not download_nltk_dependencies():
         return
-
     # Load syllabus data
     with open("syllabus.json", "r") as file:
         syllabus_data = json.load(file)
-
     syllabus_topics = [subject["subjectName"] for subject in syllabus_data]
 
     # Preprocess syllabus topics
@@ -266,12 +263,11 @@ def main():
         print("Feedback embeddings are invalid. Cannot proceed with PCA.")
         return
 
-    # Write the updated syllabus to a JSON file
+    # Write output to updatedsyllabus.json
     with open("updatedsyllabus.json", "w") as outfile:
         json.dump(updated_syllabus, outfile, indent=4, cls=CustomEncoder)
 
     print("\nUpdated syllabus has been saved to 'updatedsyllabus.json'.")
-    # print("\nSyllabus Modification Suggestions:")
 
 if __name__ == "__main__":
     main()
